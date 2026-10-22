@@ -1,0 +1,708 @@
+{
+  "input": {
+    "destination": "London",
+    "start": "2026-11-10",
+    "end": "2026-11-16",
+    "travellers": 2,
+    "budget": 1200,
+    "currency": "GBP",
+    "interests": [
+      "History",
+      "Art & Culture"
+    ],
+    "notes": "Avoid repeating attractions. Leave enough travel time."
+  },
+  "status": 200,
+  "seconds": 233.5,
+  "response": {
+    "trip": {
+      "budget": 1200.0,
+      "currency": "GBP",
+      "destination": "London",
+      "end": "2026-11-16",
+      "id": "bd50b53c-dd67-45d7-a30a-f13b4e0998f1",
+      "interests": [
+        "History",
+        "Art & Culture"
+      ],
+      "itinerary": {
+        "checks": {
+          "activityTimesNonOverlapping": true,
+          "durationDays": 7,
+          "estimatedTravelGapsChecked": true,
+          "factsVerified": false,
+          "withinBudget": false
+        },
+        "costs": [
+          {
+            "label": "Intercity transport",
+            "value": 0
+          },
+          {
+            "label": "Accommodation",
+            "value": 660
+          },
+          {
+            "label": "Food",
+            "value": 769
+          },
+          {
+            "label": "Activities",
+            "value": 190
+          },
+          {
+            "label": "Local transport",
+            "value": 60
+          }
+        ],
+        "days": [
+          {
+            "activities": [
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "World-class collection spanning two million years of history, including the Rosetta Stone and Parthenon Sculptures.",
+                "icon": "museum",
+                "note": "Free entry; booking recommended. Check opening hours.",
+                "period": "Morning",
+                "places": [
+                  "British Museum"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Art & Culture"
+                ],
+                "time": "10:00 - 12:30",
+                "title": "British Museum",
+                "travel": "15 min to next activity",
+                "travelMinutes": 15,
+                "weatherReason": "Weather lookup is disabled. Indoor alternatives are still available."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Masterpieces from Van Gogh, Turner, and Constable in Trafalgar Square. Focus on Western European painting (13th\u201319th c).",
+                "icon": "museum",
+                "note": "Free general admission; timed entry may be required.",
+                "period": "Afternoon",
+                "places": [
+                  "National Gallery"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "Art & Culture"
+                ],
+                "time": "13:00 - 15:30",
+                "title": "National Gallery",
+                "travel": "20 min to next activity",
+                "travelMinutes": 20,
+                "weatherReason": "Weather lookup is disabled. Indoor alternatives are still available."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Historic market square with live entertainment, boutique shops, and architectural charm.",
+                "icon": "pin",
+                "indoorAlternative": "London Transport Museum",
+                "note": "Free to explore; budget for optional refreshments or souvenirs.",
+                "period": "Afternoon",
+                "places": [
+                  "Covent Garden"
+                ],
+                "setting": "mixed",
+                "tags": [
+                  "Art & Culture",
+                  "Shopping"
+                ],
+                "time": "16:00 - 17:30",
+                "title": "Covent Garden Piazza & Street Performances",
+                "travel": "10 min to next activity",
+                "travelMinutes": 10,
+                "weatherReason": "Weather lookup is disabled. Indoor alternatives are still available."
+              },
+              {
+                "cost": 25,
+                "costCategory": "Food",
+                "description": "Traditional British pub meal \u2014 e.g., pie & mash or fish & chips \u2014 near Covent Garden.",
+                "icon": "food",
+                "note": "Budget \u00a325/person for main course, drink, and service.",
+                "period": "Evening",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "18:00 - 19:30",
+                "title": "Dinner at a local pub",
+                "travelMinutes": 0,
+                "weatherReason": "Weather lookup is disabled. Indoor alternatives are still available."
+              }
+            ],
+            "date": "2026-11-10"
+          },
+          {
+            "activities": [
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "UK\u2019s national gallery of British art from 1500 to today, including Turner Prize exhibits and Pre-Raphaelite works.",
+                "icon": "museum",
+                "note": "Free entry; special exhibitions may charge.",
+                "period": "Morning",
+                "places": [
+                  "Tate Britain"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "Art & Culture",
+                  "History"
+                ],
+                "time": "10:00 - 12:00",
+                "title": "Tate Britain",
+                "travel": "25 min to next activity",
+                "travelMinutes": 25,
+                "weatherReason": "Weather lookup is disabled. Indoor alternatives are still available."
+              },
+              {
+                "cost": 28,
+                "costCategory": "Activities",
+                "description": "Gothic abbey housing royal tombs, coronation site since 1066, and Poets\u2019 Corner.",
+                "icon": "museum",
+                "note": "\u00a328/person; advance booking essential. Last entry ~15:30.",
+                "period": "Afternoon",
+                "places": [
+                  "Westminster Abbey"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Art & Culture"
+                ],
+                "time": "12:30 - 14:30",
+                "title": "Westminster Abbey",
+                "travel": "15 min to next activity",
+                "travelMinutes": 15,
+                "weatherReason": "Weather lookup is disabled. Indoor alternatives are still available."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Exterior visit to iconic Gothic Revival landmark and seat of UK democracy.",
+                "icon": "pin",
+                "indoorAlternative": "Churchill War Rooms",
+                "note": "Free exterior viewing; security checks apply for tours (not included).",
+                "period": "Afternoon",
+                "places": [
+                  "Houses of Parliament",
+                  "Big Ben"
+                ],
+                "setting": "outdoor",
+                "tags": [
+                  "History"
+                ],
+                "time": "15:00 - 16:30",
+                "title": "Houses of Parliament & Big Ben Viewing",
+                "travel": "10 min to next activity",
+                "travelMinutes": 10,
+                "weatherReason": "Weather lookup is disabled. Indoor alternatives are still available."
+              },
+              {
+                "cost": 25,
+                "costCategory": "Food",
+                "description": "Casual dinner with river views \u2014 e.g., modern British bistro or caf\u00e9.",
+                "icon": "food",
+                "note": "Budget \u00a325/person for main, drink, and service.",
+                "period": "Evening",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "17:00 - 18:30",
+                "title": "Dinner near Westminster",
+                "travelMinutes": 0,
+                "weatherReason": "Weather lookup is disabled. Indoor alternatives are still available."
+              }
+            ],
+            "date": "2026-11-11"
+          },
+          {
+            "activities": [
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "World\u2019s largest museum of decorative arts and design \u2014 ceramics, fashion, sculpture, photography.",
+                "icon": "museum",
+                "note": "Free entry; donation encouraged. Book timed slot online.",
+                "period": "Morning",
+                "places": [
+                  "Victoria and Albert Museum"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "Art & Culture",
+                  "History"
+                ],
+                "time": "10:00 - 12:00",
+                "title": "Victoria and Albert Museum",
+                "travel": "20 min to next activity",
+                "travelMinutes": 20,
+                "weatherReason": "Weather lookup is disabled. Indoor alternatives are still available."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Iconic architecture and exhibits including dinosaur skeletons, Earth sciences, and Darwin Centre.",
+                "icon": "museum",
+                "note": "Free entry; timed entry recommended. Avoids repetition with prior museums.",
+                "period": "Afternoon",
+                "places": [
+                  "Natural History Museum"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Art & Culture"
+                ],
+                "time": "12:30 - 14:00",
+                "title": "Natural History Museum",
+                "travel": "15 min to next activity",
+                "travelMinutes": 15,
+                "weatherReason": "Weather lookup is disabled. Indoor alternatives are still available."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Scenic stroll between V&A, Natural History, and Science Museums along Exhibition Road.",
+                "icon": "camera",
+                "indoorAlternative": "Science Museum",
+                "note": "Free; ideal for photography and architecture appreciation.",
+                "period": "Afternoon",
+                "places": [
+                  "Exhibition Road"
+                ],
+                "setting": "mixed",
+                "tags": [
+                  "Art & Culture",
+                  "History"
+                ],
+                "time": "14:30 - 16:00",
+                "title": "South Kensington Museums Area Walk",
+                "travel": "10 min to next activity",
+                "travelMinutes": 10,
+                "weatherReason": "Weather lookup is disabled. Indoor alternatives are still available."
+              },
+              {
+                "cost": 25,
+                "costCategory": "Food",
+                "description": "Relaxed dinner at a neighbourhood restaurant \u2014 e.g., French bistro or modern European.",
+                "icon": "food",
+                "note": "Budget \u00a325/person for main, drink, and service.",
+                "period": "Evening",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "16:30 - 18:00",
+                "title": "Farewell dinner in South Kensington",
+                "travelMinutes": 0,
+                "weatherReason": "Weather lookup is disabled. Indoor alternatives are still available."
+              }
+            ],
+            "date": "2026-11-12"
+          },
+          {
+            "activities": [
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Quirky historic house museum with antiquities, paintings and architectural drawings. Small, atmospheric, and free.",
+                "icon": "museum",
+                "note": "Free entry; booking required. Check opening hours \u2014 closed Mondays.",
+                "period": "Morning",
+                "places": [
+                  "Sir John Soane's Museum"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Art & Culture"
+                ],
+                "time": "10:00 - 12:00",
+                "title": "Sir John Soane's Museum",
+                "travel": "5 min to next activity",
+                "travelMinutes": 5,
+                "weatherReason": "Weather lookup is disabled. Indoor alternatives are still available."
+              },
+              {
+                "cost": 32,
+                "costCategory": "Food",
+                "description": "Grand European-style caf\u00e9-restaurant in a historic building. Classic dishes and elegant atmosphere.",
+                "icon": "food",
+                "note": "Reservations recommended. Expect \u00a332/person for lunch.",
+                "period": "Afternoon",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food",
+                  "Art & Culture"
+                ],
+                "time": "12:30 - 14:00",
+                "title": "Lunch at The Wolseley",
+                "travel": "10 min to next activity",
+                "travelMinutes": 10,
+                "weatherReason": "Weather lookup is disabled. Indoor alternatives are still available."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Opulent townhouse museum with Old Master paintings, armour, porcelain and French furniture.",
+                "icon": "museum",
+                "note": "Free entry; closed Mondays. Allow time to explore the courtyard and caf\u00e9.",
+                "period": "Afternoon",
+                "places": [
+                  "Wallace Collection"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "Art & Culture",
+                  "History"
+                ],
+                "time": "14:30 - 16:30",
+                "title": "Wallace Collection",
+                "travel": "15 min to next activity",
+                "travelMinutes": 15,
+                "weatherReason": "Weather lookup is disabled. Indoor alternatives are still available."
+              },
+              {
+                "cost": 48,
+                "costCategory": "Food",
+                "description": "Iconic nose-to-tail restaurant in Spitalfields serving seasonal British fare.",
+                "icon": "food",
+                "note": "Book ahead. Approx. \u00a348/person for dinner with drink.",
+                "period": "Evening",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food",
+                  "History"
+                ],
+                "time": "17:00 - 18:30",
+                "title": "Dinner at St. John Bread and Wine",
+                "travelMinutes": 0,
+                "weatherReason": "Weather lookup is disabled. Indoor alternatives are still available."
+              }
+            ],
+            "date": "2026-11-13"
+          },
+          {
+            "activities": [
+              {
+                "cost": 14,
+                "costCategory": "Activities",
+                "description": "Restored Georgian house where Dickens wrote 'Oliver Twist'. Manuscripts, personal items and period rooms.",
+                "icon": "museum",
+                "note": "\u00a314/person. Closed Mondays. Pre-booking advised.",
+                "period": "Morning",
+                "places": [
+                  "Charles Dickens Museum"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History"
+                ],
+                "time": "10:00 - 12:00",
+                "title": "Charles Dickens Museum",
+                "travel": "12 min to next activity",
+                "travelMinutes": 12,
+                "weatherReason": "Weather lookup is disabled. Indoor alternatives are still available."
+              },
+              {
+                "cost": 28,
+                "costCategory": "Food",
+                "description": "Stylish Bombay-inspired caf\u00e9 with retro decor and bold Indian flavours.",
+                "icon": "food",
+                "note": "\u00a328/person for lunch including soft drink.",
+                "period": "Afternoon",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food",
+                  "Art & Culture"
+                ],
+                "time": "12:30 - 14:00",
+                "title": "Lunch at Dishoom Shoreditch",
+                "travel": "10 min to next activity",
+                "travelMinutes": 10,
+                "weatherReason": "Weather lookup is disabled. Indoor alternatives are still available."
+              },
+              {
+                "cost": 12,
+                "costCategory": "Activities",
+                "description": "Moving museum telling the story of London\u2019s first children\u2019s charity and its links to art and music.",
+                "icon": "museum",
+                "note": "\u00a312/person. Free first Sunday of month \u2014 not applicable here.",
+                "period": "Afternoon",
+                "places": [
+                  "Foundling Museum"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Art & Culture"
+                ],
+                "time": "14:30 - 16:30",
+                "title": "Foundling Museum",
+                "travel": "15 min to next activity",
+                "travelMinutes": 15,
+                "weatherReason": "Weather lookup is disabled. Indoor alternatives are still available."
+              },
+              {
+                "cost": 120,
+                "costCategory": "Food",
+                "description": "Two-Michelin-star fine-dining restaurant in Notting Hill (tasting menu option).",
+                "icon": "food",
+                "note": "Tasting menu approx. \u00a3120/person. Book well ahead.",
+                "period": "Evening",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food",
+                  "Art & Culture"
+                ],
+                "time": "17:00 - 18:30",
+                "title": "Dinner at The Ledbury",
+                "travelMinutes": 0,
+                "weatherReason": "Weather lookup is disabled. Indoor alternatives are still available."
+              }
+            ],
+            "date": "2026-11-14"
+          },
+          {
+            "activities": [
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Engaging history of London\u2019s river, port and people \u2014 housed in a Grade I listed warehouse.",
+                "icon": "museum",
+                "note": "Free entry. Closed Mondays. DLR to West India Quay.",
+                "period": "Morning",
+                "places": [
+                  "Museum of London Docklands"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History"
+                ],
+                "time": "10:00 - 12:00",
+                "title": "Museum of London Docklands",
+                "travel": "20 min to next activity",
+                "travelMinutes": 20,
+                "weatherReason": "Weather lookup is disabled. Indoor alternatives are still available."
+              },
+              {
+                "cost": 26,
+                "costCategory": "Food",
+                "description": "Contemporary caf\u00e9-gallery space adjacent to Dulwich Picture Gallery \u2014 seasonal British food.",
+                "icon": "food",
+                "note": "\u00a326/person for lunch. Gallery entry separate (not visited per avoid list).",
+                "period": "Afternoon",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food",
+                  "Art & Culture"
+                ],
+                "time": "12:30 - 14:00",
+                "title": "Lunch at The Shed at Dulwich",
+                "travel": "25 min to next activity",
+                "travelMinutes": 25,
+                "weatherReason": "Weather lookup is disabled. Indoor alternatives are still available."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Free permanent exhibition showcasing Magna Carta, Beatles lyrics, Leonardo notebooks and more.",
+                "icon": "museum",
+                "note": "Free entry. Requires timed ticket. Closed Sundays/Mondays.",
+                "period": "Afternoon",
+                "places": [
+                  "British Library"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Art & Culture"
+                ],
+                "time": "14:30 - 16:30",
+                "title": "Sir John Ritblat Gallery at The British Library",
+                "travelMinutes": 0,
+                "weatherReason": "Weather lookup is disabled. Indoor alternatives are still available."
+              }
+            ],
+            "date": "2026-11-15"
+          },
+          {
+            "activities": [
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Explore the Guildhall Art Gallery\u2019s British art collection and descend into the preserved Roman amphitheatre beneath.",
+                "icon": "museum",
+                "note": "Free entry; booking required for Roman Amphitheatre tours. Check same-day availability.",
+                "period": "Morning",
+                "places": [
+                  "Guildhall Art Gallery",
+                  "London Roman Amphitheatre"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Art & Culture"
+                ],
+                "time": "10:00 - 12:00",
+                "title": "Sir John Soane's Museum (Excluded per request \u2014 substitute: Guildhall Art Gallery & Roman Amphitheatre)",
+                "travel": "5 min to next activity",
+                "travelMinutes": 5,
+                "weatherReason": "Weather lookup is disabled. Indoor alternatives are still available."
+              },
+              {
+                "cost": 18,
+                "costCategory": "Food",
+                "description": "Casual lunch amid historic market architecture with diverse food stalls.",
+                "icon": "food",
+                "note": "Budget \u00a318/person covers a main + drink. Stalls vary daily.",
+                "period": "Afternoon",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "12:05 - 13:30",
+                "title": "Lunch at Smithfield Market Food Hall",
+                "travel": "10 min to next activity",
+                "travelMinutes": 10,
+                "weatherReason": "Weather lookup is disabled. Indoor alternatives are still available."
+              },
+              {
+                "cost": 22,
+                "costCategory": "Activities",
+                "description": "View the iconic dome and explore the historic crypt \u2014 avoid interior nave to respect avoidance list constraints.",
+                "icon": "museum",
+                "indoorAlternative": "Museum of London (not on avoid list, but closed permanently as of 2023 \u2014 substitute: London Transport Museum)",
+                "note": "Crypt access only (\u00a322/person); exterior viewing is free. Book crypt slot in advance.",
+                "period": "Afternoon",
+                "places": [
+                  "St Paul's Cathedral Crypt"
+                ],
+                "setting": "mixed",
+                "tags": [
+                  "History",
+                  "Art & Culture"
+                ],
+                "time": "13:40 - 15:40",
+                "title": "St. Paul's Cathedral (Exterior & Crypt Access Only)",
+                "travel": "15 min to next activity",
+                "travelMinutes": 15,
+                "weatherReason": "Weather lookup is disabled. Indoor alternatives are still available."
+              },
+              {
+                "cost": 19,
+                "costCategory": "Activities",
+                "description": "Interactive exhibits on London\u2019s transit history, including vintage vehicles and design archives.",
+                "icon": "museum",
+                "note": "\u00a319/person; pre-booked timed entry recommended.",
+                "period": "Afternoon",
+                "places": [
+                  "London Transport Museum"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Art & Culture"
+                ],
+                "time": "15:55 - 17:15",
+                "title": "London Transport Museum",
+                "travelMinutes": 0,
+                "weatherReason": "Weather lookup is disabled. Indoor alternatives are still available."
+              }
+            ],
+            "date": "2026-11-16"
+          }
+        ],
+        "mode": "qwen",
+        "model": "qwen-plus",
+        "promptVersion": "qwen-travel-v4",
+        "segments": 3,
+        "total": 1679,
+        "warnings": [
+          "AI-generated estimates; prices, opening hours and travel times are unverified.",
+          "Travel to/from the destination is excluded because no departure city was provided. Arrive before the first activity.",
+          "Activity times do not overlap; travel feasibility and opening hours still require checking.",
+          "Unsupported activity tags were omitted.",
+          "Food/activity group allowances were increased to cover the listed per-person costs for all travellers; check the revised estimate.",
+          "Named-attraction duplicate checks are approximate; aliases, opening hours and actual travel times still need verification.",
+          "The estimated group total exceeds your budget; this plan has not been optimized to fit it."
+        ],
+        "weather": {
+          "days": [
+            {
+              "date": "2026-11-10",
+              "reason": "Weather lookup is disabled. Indoor alternatives are still available.",
+              "recommendation": "unknown",
+              "status": "disabled"
+            },
+            {
+              "date": "2026-11-11",
+              "reason": "Weather lookup is disabled. Indoor alternatives are still available.",
+              "recommendation": "unknown",
+              "status": "disabled"
+            },
+            {
+              "date": "2026-11-12",
+              "reason": "Weather lookup is disabled. Indoor alternatives are still available.",
+              "recommendation": "unknown",
+              "status": "disabled"
+            },
+            {
+              "date": "2026-11-13",
+              "reason": "Weather lookup is disabled. Indoor alternatives are still available.",
+              "recommendation": "unknown",
+              "status": "disabled"
+            },
+            {
+              "date": "2026-11-14",
+              "reason": "Weather lookup is disabled. Indoor alternatives are still available.",
+              "recommendation": "unknown",
+              "status": "disabled"
+            },
+            {
+              "date": "2026-11-15",
+              "reason": "Weather lookup is disabled. Indoor alternatives are still available.",
+              "recommendation": "unknown",
+              "status": "disabled"
+            },
+            {
+              "date": "2026-11-16",
+              "reason": "Weather lookup is disabled. Indoor alternatives are still available.",
+              "recommendation": "unknown",
+              "status": "disabled"
+            }
+          ],
+          "fetchedAt": null,
+          "source": "Open-Meteo",
+          "sourceUrl": "https://open-meteo.com/",
+          "status": "unavailable",
+          "timezone": "Europe/London"
+        }
+      },
+      "notes": "Avoid repeating attractions. Leave enough travel time.",
+      "start": "2026-11-10",
+      "travellers": 2
+    }
+  },
+  "duplicates": [],
+  "travelGapsChecked": true
+}

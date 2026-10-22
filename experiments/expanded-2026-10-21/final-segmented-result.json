@@ -1,0 +1,760 @@
+{
+  "input": {
+    "destination": "London",
+    "start": "2026-10-13",
+    "end": "2026-10-24",
+    "travellers": 3,
+    "budget": 1500,
+    "currency": "GBP",
+    "interests": [
+      "Art & Culture",
+      "Nightlife"
+    ],
+    "notes": "A relaxed pace. Include meals each day."
+  },
+  "status": 200,
+  "elapsedSeconds": 69.2,
+  "response": {
+    "trip": {
+      "budget": 1500.0,
+      "currency": "GBP",
+      "destination": "London",
+      "end": "2026-10-24",
+      "id": "e3cf4e93-44c2-4f13-80e3-184beb9f655b",
+      "interests": [
+        "Art & Culture",
+        "Nightlife"
+      ],
+      "itinerary": {
+        "checks": {
+          "activityTimesNonOverlapping": true,
+          "durationDays": 12,
+          "factsVerified": false,
+          "withinBudget": false
+        },
+        "costs": [
+          {
+            "label": "Intercity transport",
+            "value": 0
+          },
+          {
+            "label": "Accommodation",
+            "value": 855
+          },
+          {
+            "label": "Food",
+            "value": 972
+          },
+          {
+            "label": "Activities",
+            "value": 825
+          },
+          {
+            "label": "Local transport",
+            "value": 165
+          }
+        ],
+        "days": [
+          {
+            "activities": [
+              {
+                "cost": 0,
+                "description": "Free entry to world-class modern art. Highlights include Rothko, Hockney, and contemporary installations.",
+                "icon": "museum",
+                "note": "Free entry; booking recommended for special exhibitions",
+                "period": "Morning",
+                "tags": [
+                  "Art & Culture"
+                ],
+                "time": "10:30 - 12:30",
+                "title": "Tate Modern",
+                "travel": "15 min walk or bus to next"
+              },
+              {
+                "cost": 18,
+                "description": "Eclectic food stalls \u2014 try British cheeses, street food, and seasonal produce.",
+                "icon": "food",
+                "note": "Budget \u00a318/person; cash/ card accepted",
+                "period": "Afternoon",
+                "tags": [
+                  "Food"
+                ],
+                "time": "13:00 - 14:30",
+                "title": "Lunch at Borough Market",
+                "travel": "10 min walk to next"
+              },
+              {
+                "cost": 0,
+                "description": "Leisurely riverside stroll past the London Eye, National Theatre, and impromptu performances.",
+                "icon": "camera",
+                "note": "Free; best on weekdays but lively evenings too",
+                "period": "Afternoon",
+                "tags": [
+                  "Art & Culture",
+                  "Photography"
+                ],
+                "time": "15:00 - 17:00",
+                "title": "Southbank Walk & Street Performers",
+                "travel": "20 min tube to next"
+              },
+              {
+                "cost": 35,
+                "description": "Legendary jazz club with intimate atmosphere and top-tier acts.",
+                "icon": "spark",
+                "note": "Booking essential; \u00a335 includes cover + one drink",
+                "period": "Evening",
+                "tags": [
+                  "Nightlife",
+                  "Art & Culture"
+                ],
+                "time": "19:30 - 23:00",
+                "title": "Live Jazz at Ronnie Scott\u2019s (Soho)"
+              }
+            ],
+            "date": "2026-10-13"
+          },
+          {
+            "activities": [
+              {
+                "cost": 0,
+                "description": "Masterpieces from Van Gogh to Turner. Free general admission in a stunning Trafalgar Square setting.",
+                "icon": "museum",
+                "note": "Free; timed entry advised for peak times",
+                "period": "Morning",
+                "tags": [
+                  "Art & Culture"
+                ],
+                "time": "11:00 - 13:00",
+                "title": "The National Gallery",
+                "travel": "15 min tube to next"
+              },
+              {
+                "cost": 20,
+                "description": "Caf\u00e9 or pub lunch amid street performers and boutique charm.",
+                "icon": "food",
+                "note": "Average \u00a320/person for casual sit-down meal",
+                "period": "Afternoon",
+                "tags": [
+                  "Food"
+                ],
+                "time": "13:30 - 15:00",
+                "title": "Lunch in Covent Garden",
+                "travel": "10 min walk to next"
+              },
+              {
+                "cost": 5,
+                "description": "Eclectic indie shops, vintage finds, and relaxed Regent\u2019s Canal views.",
+                "icon": "pin",
+                "note": "Small spend budgeted for browsing; free entry",
+                "period": "Afternoon",
+                "tags": [
+                  "Shopping",
+                  "Art & Culture"
+                ],
+                "time": "15:30 - 17:30",
+                "title": "Camden Market & Canal Walk",
+                "travel": "25 min tube to next"
+              },
+              {
+                "cost": 32,
+                "description": "Three characterful bars \u2014 craft beer, cocktails, and urban energy.",
+                "icon": "spark",
+                "note": "\u00a332 covers drinks at 3 venues; book ahead for groups",
+                "period": "Evening",
+                "tags": [
+                  "Nightlife"
+                ],
+                "time": "20:00 - 23:30",
+                "title": "Pub Crawl in Shoreditch"
+              }
+            ],
+            "date": "2026-10-14"
+          },
+          {
+            "activities": [
+              {
+                "cost": 0,
+                "description": "World\u2019s leading museum of art, design and performance \u2014 ceramics, fashion, sculpture.",
+                "icon": "museum",
+                "note": "Free entry; optional donation suggested",
+                "period": "Morning",
+                "tags": [
+                  "Art & Culture"
+                ],
+                "time": "10:00 - 12:00",
+                "title": "Victoria & Albert Museum",
+                "travel": "15 min tube to next"
+              },
+              {
+                "cost": 22,
+                "description": "Charming caf\u00e9 brunch \u2014 avocado toast, eggs, fresh juice, and people-watching.",
+                "icon": "food",
+                "note": "\u00a322/person for hearty weekend-style brunch",
+                "period": "Afternoon",
+                "tags": [
+                  "Food"
+                ],
+                "time": "12:30 - 14:00",
+                "title": "Brunch in Notting Hill",
+                "travel": "20 min tube to next"
+              },
+              {
+                "cost": 8,
+                "description": "Browse stalls for retro fashion, vinyl, and collectibles in a vibrant, photogenic setting.",
+                "icon": "camera",
+                "note": "Budget \u00a38/person for small keepsake or snack",
+                "period": "Afternoon",
+                "tags": [
+                  "Shopping",
+                  "Photography"
+                ],
+                "time": "14:30 - 16:30",
+                "title": "Portobello Road Market (Antiques & Vintage)",
+                "travel": "10 min walk to next"
+              },
+              {
+                "cost": 16,
+                "description": "Relaxed 1-hour sightseeing cruise with skyline views and commentary.",
+                "icon": "nature",
+                "note": "Pre-book online; \u00a316/person off-peak",
+                "period": "Evening",
+                "tags": [
+                  "Nature",
+                  "Photography"
+                ],
+                "time": "17:00 - 19:00",
+                "title": "Sunset Thames Cruise (Westminster to Tower Bridge)"
+              }
+            ],
+            "date": "2026-10-15"
+          },
+          {
+            "activities": [
+              {
+                "cost": 0,
+                "description": "Free entry to world-class modern art. Highlights include Rothko, Hockney, and contemporary installations.",
+                "icon": "museum",
+                "note": "Free entry; booking recommended for special exhibitions",
+                "period": "Morning",
+                "tags": [
+                  "Art & Culture"
+                ],
+                "time": "10:30 - 12:30",
+                "title": "Tate Modern",
+                "travel": "15 min walk or bus to next"
+              },
+              {
+                "cost": 18,
+                "description": "Eclectic food stalls \u2014 try British cheeses, street food, and seasonal produce.",
+                "icon": "food",
+                "note": "Allow time to browse; cash/ card accepted",
+                "period": "Afternoon",
+                "tags": [
+                  "Food"
+                ],
+                "time": "13:00 - 14:30",
+                "title": "Lunch at Borough Market",
+                "travel": "10 min walk to next"
+              },
+              {
+                "cost": 0,
+                "description": "Leisurely riverside stroll past the London Eye, National Theatre, and impromptu acts.",
+                "icon": "camera",
+                "note": "Free; best atmosphere late afternoon",
+                "period": "Afternoon",
+                "tags": [
+                  "Art & Culture",
+                  "Photography"
+                ],
+                "time": "15:30 - 17:30",
+                "title": "Southbank Walk & Street Performers",
+                "travel": "20 min tube to next"
+              },
+              {
+                "cost": 32,
+                "description": "Three relaxed stops: craft beer, live DJ sets, and vibrant street art views.",
+                "icon": "spark",
+                "note": "Book ahead for weekend spots; budget includes drinks & snacks",
+                "period": "Evening",
+                "tags": [
+                  "Nightlife"
+                ],
+                "time": "19:30 - 23:00",
+                "title": "Pub Crawl in Shoreditch"
+              }
+            ],
+            "date": "2026-10-16"
+          },
+          {
+            "activities": [
+              {
+                "cost": 0,
+                "description": "Masterpieces from Van Gogh to Turner. Free general admission; focus on highlights tour.",
+                "icon": "museum",
+                "note": "Free entry; timed tickets advised",
+                "period": "Morning",
+                "tags": [
+                  "Art & Culture"
+                ],
+                "time": "11:00 - 13:00",
+                "title": "The National Gallery",
+                "travel": "15 min tube to next"
+              },
+              {
+                "cost": 22,
+                "description": "Caf\u00e9 or casual bistro \u2014 choose from Italian, Thai, or British gastropub options.",
+                "icon": "food",
+                "note": "Reservations recommended for popular spots",
+                "period": "Afternoon",
+                "tags": [
+                  "Food"
+                ],
+                "time": "13:45 - 15:15",
+                "title": "Lunch in Covent Garden",
+                "travel": "10 min walk to next"
+              },
+              {
+                "cost": 15,
+                "description": "Guided walk spotting murals, graffiti, and alternative culture along Camden Lock.",
+                "icon": "camera",
+                "note": "Group tour; confirm operator availability for Oct 2026",
+                "period": "Afternoon",
+                "tags": [
+                  "Art & Culture",
+                  "Photography"
+                ],
+                "time": "16:00 - 18:00",
+                "title": "Street Art Tour in Camden",
+                "travel": "25 min tube to next"
+              },
+              {
+                "cost": 25,
+                "description": "Intimate venue with indie bands or DJs \u2014 relaxed vibe, no cover charge on some nights.",
+                "icon": "spark",
+                "note": "Check venue listings closer to date; includes one drink",
+                "period": "Evening",
+                "tags": [
+                  "Nightlife"
+                ],
+                "time": "20:00 - 23:30",
+                "title": "Live Music in Dalston"
+              }
+            ],
+            "date": "2026-10-17"
+          },
+          {
+            "activities": [
+              {
+                "cost": 0,
+                "description": "World\u2019s leading museum of art and design \u2014 ceramics, fashion, sculpture, and more.",
+                "icon": "museum",
+                "note": "Free entry; book free timed slot online",
+                "period": "Morning",
+                "tags": [
+                  "Art & Culture"
+                ],
+                "time": "10:00 - 11:30",
+                "title": "Victoria & Albert Museum",
+                "travel": "10 min walk to next"
+              },
+              {
+                "cost": 20,
+                "description": "Charming caf\u00e9 with avocado toast, eggs, and local coffee \u2014 garden seating if weather permits.",
+                "icon": "food",
+                "note": "Popular spot \u2014 arrive early or book ahead",
+                "period": "Afternoon",
+                "tags": [
+                  "Food"
+                ],
+                "time": "12:00 - 13:30",
+                "title": "Brunch in Notting Hill",
+                "travel": "20 min tube to next"
+              },
+              {
+                "cost": 10,
+                "description": "Browse vintage clothing, records, and collectibles \u2014 relaxed browsing pace.",
+                "icon": "pin",
+                "note": "Cash useful for small vendors; closes ~17:30",
+                "period": "Afternoon",
+                "tags": [
+                  "Shopping",
+                  "Art & Culture"
+                ],
+                "time": "14:30 - 16:30",
+                "title": "Portobello Road Market (Antiques & Vintage)",
+                "travel": "15 min tube to next"
+              },
+              {
+                "cost": 28,
+                "description": "Cocktail bar with creative drinks and low-key ambiance \u2014 perfect relaxed end.",
+                "icon": "spark",
+                "note": "Includes one cocktail and snack per person",
+                "period": "Evening",
+                "tags": [
+                  "Nightlife"
+                ],
+                "time": "17:30 - 19:00",
+                "title": "Farewell Drinks in Soho"
+              }
+            ],
+            "date": "2026-10-18"
+          },
+          {
+            "activities": [
+              {
+                "cost": 0,
+                "description": "Explore modern and contemporary art in a striking riverside building. Free general admission.",
+                "icon": "museum",
+                "note": "Free entry; special exhibitions may charge \u2014 check website.",
+                "period": "Morning",
+                "tags": [
+                  "Art & Culture"
+                ],
+                "time": "10:30 - 12:30",
+                "title": "Tate Modern Entry",
+                "travel": "15 min walk to Southbank"
+              },
+              {
+                "cost": 18,
+                "description": "Casual food hall with global street food, artisan cheeses, and fresh produce.",
+                "icon": "food",
+                "note": "Budget \u00a318/person for a hearty meal; cash/ card accepted.",
+                "period": "Afternoon",
+                "tags": [
+                  "Food"
+                ],
+                "time": "13:00 - 14:30",
+                "title": "Lunch at Borough Market",
+                "travel": "10 min walk to Covent Garden"
+              },
+              {
+                "cost": 0,
+                "description": "Charming piazza with buskers, boutiques, and historic architecture.",
+                "icon": "spark",
+                "note": "Free to explore; tip performers if enjoyed.",
+                "period": "Afternoon",
+                "tags": [
+                  "Art & Culture",
+                  "Photography"
+                ],
+                "time": "15:30 - 17:30",
+                "title": "Covent Garden Stroll & Street Performance",
+                "travel": "20 min tube to Soho"
+              },
+              {
+                "cost": 32,
+                "description": "Relaxed bar-hopping in Soho with live music venues and vibrant atmosphere.",
+                "icon": "food",
+                "note": "Includes dinner + 2 drinks; prices vary by venue.",
+                "period": "Evening",
+                "tags": [
+                  "Nightlife",
+                  "Food"
+                ],
+                "time": "19:00 - 22:30",
+                "title": "Soho Pub Crawl & Live Jazz"
+              }
+            ],
+            "date": "2026-10-19"
+          },
+          {
+            "activities": [
+              {
+                "cost": 0,
+                "description": "Self-guided tour of masterpieces from Van Gogh to Turner. Free entry.",
+                "icon": "museum",
+                "note": "Free general admission; booking recommended for timed entry.",
+                "period": "Morning",
+                "tags": [
+                  "Art & Culture"
+                ],
+                "time": "10:00 - 12:00",
+                "title": "National Gallery Highlights Tour",
+                "travel": "15 min walk to Camden"
+              },
+              {
+                "cost": 20,
+                "description": "Eclectic food stalls offering global cuisine in a lively, alternative setting.",
+                "icon": "food",
+                "note": "\u00a320/person covers filling meal; cash preferred at some stalls.",
+                "period": "Afternoon",
+                "tags": [
+                  "Food",
+                  "Shopping"
+                ],
+                "time": "12:45 - 14:15",
+                "title": "Lunch in Camden Market",
+                "travel": "25 min tube to Shoreditch"
+              },
+              {
+                "cost": 0,
+                "description": "Guided-style self-tour of iconic murals and graffiti in London\u2019s creative hub.",
+                "icon": "camera",
+                "note": "Free; best explored on foot \u2014 wear comfortable shoes.",
+                "period": "Afternoon",
+                "tags": [
+                  "Art & Culture",
+                  "Photography"
+                ],
+                "time": "15:30 - 17:30",
+                "title": "Shoreditch Street Art Walk",
+                "travel": "20 min tube to Dalston"
+              },
+              {
+                "cost": 30,
+                "description": "Intimate bar with DJ sets, vinyl nights, and craft cocktails.",
+                "icon": "spark",
+                "note": "Covers 2 drinks + small snack; cover charge may apply weekends.",
+                "period": "Evening",
+                "tags": [
+                  "Nightlife"
+                ],
+                "time": "19:30 - 23:00",
+                "title": "Dalston Late-Night Bar & Vinyl Session"
+              }
+            ],
+            "date": "2026-10-20"
+          },
+          {
+            "activities": [
+              {
+                "cost": 22,
+                "description": "Charming caf\u00e9s and colourful streets \u2014 ideal relaxed start.",
+                "icon": "food",
+                "note": "\u00a322/person for brunch with coffee or mimosa.",
+                "period": "Morning",
+                "tags": [
+                  "Food",
+                  "Photography"
+                ],
+                "time": "10:00 - 11:30",
+                "title": "Brunch in Notting Hill",
+                "travel": "15 min tube to Portobello Road"
+              },
+              {
+                "cost": 0,
+                "description": "Famous market with vintage fashion, collectibles, and street charm.",
+                "icon": "pin",
+                "note": "Free to browse; budget for purchases separately.",
+                "period": "Afternoon",
+                "tags": [
+                  "Shopping",
+                  "Art & Culture"
+                ],
+                "time": "12:00 - 14:00",
+                "title": "Portobello Road Market (Antiques & Vintage)",
+                "travel": "10 min walk to Holland Park"
+              },
+              {
+                "cost": 0,
+                "description": "Tranquil Japanese garden with koi ponds and maple trees \u2014 peaceful retreat.",
+                "icon": "nature",
+                "note": "Free entry; open daily during daylight hours.",
+                "period": "Afternoon",
+                "tags": [
+                  "Nature",
+                  "Photography"
+                ],
+                "time": "14:30 - 16:00",
+                "title": "Holland Park Kyoto Garden",
+                "travel": "20 min tube to West End"
+              },
+              {
+                "cost": 25,
+                "description": "Relaxed cocktail bar near Leicester Square \u2014 easy vibe, great people-watching.",
+                "icon": "spark",
+                "note": "Covers 2 drinks + light bites; book ahead for weekend.",
+                "period": "Evening",
+                "tags": [
+                  "Nightlife",
+                  "Food"
+                ],
+                "time": "17:00 - 19:00",
+                "title": "Farewell Drinks in West End"
+              }
+            ],
+            "date": "2026-10-21"
+          },
+          {
+            "activities": [
+              {
+                "cost": 0,
+                "description": "Free entry to world-class modern art; riverside views and Turbine Hall installations.",
+                "icon": "museum",
+                "note": "Free entry; booking recommended for special exhibitions.",
+                "period": "Morning",
+                "tags": [
+                  "Art & Culture"
+                ],
+                "time": "10:30 - 12:30",
+                "title": "Tate Modern",
+                "travel": "15 min walk or bus to South Bank"
+              },
+              {
+                "cost": 18,
+                "description": "Eclectic food stalls \u2014 try British cheeses, street food, and seasonal produce.",
+                "icon": "food",
+                "note": "Budget \u00a318/person; cash/ card accepted. Closes ~17:00.",
+                "period": "Afternoon",
+                "tags": [
+                  "Food"
+                ],
+                "time": "13:00 - 14:30",
+                "title": "Lunch at Borough Market",
+                "travel": "10 min walk from Tate"
+              },
+              {
+                "cost": 0,
+                "description": "Leisurely riverside walk past the London Eye, National Theatre, and impromptu performances.",
+                "icon": "camera",
+                "note": "Free; best atmosphere late afternoon.",
+                "period": "Afternoon",
+                "tags": [
+                  "Art & Culture",
+                  "Photography"
+                ],
+                "time": "15:30 - 17:30",
+                "title": "South Bank Stroll & Street Performers",
+                "travel": "5 min to Waterloo Station"
+              },
+              {
+                "cost": 25,
+                "description": "Relaxed bar-hopping: The Lamb, The Coach & Horses, and The French House.",
+                "icon": "spark",
+                "note": "\u00a325/person covers drinks & snacks; book ahead for weekend crowds.",
+                "period": "Evening",
+                "tags": [
+                  "Nightlife"
+                ],
+                "time": "19:30 - 23:00",
+                "title": "Pub Crawl in Covent Garden",
+                "travel": "20 min tube (Waterloo \u2192 Covent Garden)"
+              }
+            ],
+            "date": "2026-10-22"
+          },
+          {
+            "activities": [
+              {
+                "cost": 0,
+                "description": "Free access to Rosetta Stone, Parthenon sculptures, and global antiquities.",
+                "icon": "museum",
+                "note": "Free entry; timed entry advised \u2014 check website.",
+                "period": "Morning",
+                "tags": [
+                  "History",
+                  "Art & Culture"
+                ],
+                "time": "11:00 - 13:00",
+                "title": "The British Museum",
+                "travel": "15 min tube (Covent Garden \u2192 Tottenham Court Road)"
+              },
+              {
+                "cost": 16,
+                "description": "Casual caf\u00e9 meal near the museum \u2014 e.g., Monmouth Coffee or The Brunswick.",
+                "icon": "food",
+                "note": "\u00a316/person; vegetarian options widely available.",
+                "period": "Afternoon",
+                "tags": [
+                  "Food"
+                ],
+                "time": "13:30 - 15:00",
+                "title": "Lunch in Bloomsbury",
+                "travel": "5 min walk from museum"
+              },
+              {
+                "cost": 12,
+                "description": "Eclectic stalls, vintage shops, and scenic canal-side stroll.",
+                "icon": "pin",
+                "note": "\u00a312/person for small bites & souvenirs; market open daily.",
+                "period": "Afternoon",
+                "tags": [
+                  "Shopping",
+                  "Art & Culture"
+                ],
+                "time": "16:00 - 18:00",
+                "title": "Camden Market & Regent\u2019s Canal Walk",
+                "travel": "20 min tube (Tottenham Court Rd \u2192 Camden Town)"
+              },
+              {
+                "cost": 18,
+                "description": "Intimate pub venue with indie bands and comedy \u2014 classic Camden nightlife.",
+                "icon": "spark",
+                "note": "\u00a318/person includes cover + drink; check lineup online.",
+                "period": "Evening",
+                "tags": [
+                  "Nightlife"
+                ],
+                "time": "20:00 - 23:30",
+                "title": "Live Music at The Dublin Castle",
+                "travel": "2 min walk from Camden Market"
+              }
+            ],
+            "date": "2026-10-23"
+          },
+          {
+            "activities": [
+              {
+                "cost": 15,
+                "description": "Guided walk spotting Banksy, Stik, and vibrant murals in East London.",
+                "icon": "camera",
+                "note": "\u00a315/person; book in advance. Rain contingency included.",
+                "period": "Morning",
+                "tags": [
+                  "Art & Culture",
+                  "Photography"
+                ],
+                "time": "10:00 - 12:00",
+                "title": "Street Art Tour in Shoreditch",
+                "travel": "25 min tube (Covent Garden \u2192 Liverpool Street, then bus)"
+              },
+              {
+                "cost": 22,
+                "description": "Popular Bombay-style brunch \u2014 black daal, bacon naan, chai.",
+                "icon": "food",
+                "note": "\u00a322/person; reservation essential. Opens at 12:00.",
+                "period": "Afternoon",
+                "tags": [
+                  "Food"
+                ],
+                "time": "12:30 - 14:00",
+                "title": "Brunch at Dishoom Shoreditch",
+                "travel": "5 min walk from tour end"
+              },
+              {
+                "cost": 0,
+                "description": "Green space with lakes, gardens, and street art nearby \u2014 perfect relaxed finale.",
+                "icon": "nature",
+                "note": "Free; benches and caf\u00e9s available. Allow time to unwind.",
+                "period": "Afternoon",
+                "tags": [
+                  "Nature"
+                ],
+                "time": "14:30 - 16:30",
+                "title": "Victoria Park Relaxation",
+                "travel": "15 min bus (Shoreditch \u2192 Victoria Park)"
+              }
+            ],
+            "date": "2026-10-24"
+          }
+        ],
+        "mode": "qwen",
+        "model": "qwen-plus",
+        "promptVersion": "qwen-travel-v2",
+        "segments": 4,
+        "total": 2817,
+        "warnings": [
+          "Food/activity group allowances were increased to cover the listed per-person costs for all travellers; check the revised estimate.",
+          "AI-generated estimates; prices, opening hours and travel times are unverified.",
+          "Travel to/from the destination is excluded because no departure city was provided. Arrive before the first activity.",
+          "Activity times do not overlap; travel feasibility and opening hours still require checking.",
+          "Long trip generated in date segments; check for repeated attractions across days.",
+          "The estimated group total exceeds your budget; this plan has not been optimized to fit it."
+        ]
+      },
+      "notes": "A relaxed pace. Include meals each day.",
+      "start": "2026-10-13",
+      "travellers": 3
+    }
+  }
+}

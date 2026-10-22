@@ -1,0 +1,167 @@
+{
+  "startedAt": "2026-10-22T00:09:27.499203+08:00",
+  "promptVersion": "qwen-travel-v6",
+  "model": "qwen-plus",
+  "weather": "synthetic HTTP fixtures with frozen weather clock; real Qwen",
+  "weatherClock": "2026-10-22T12:00:00+01:00",
+  "sourceHashes": {
+    "backend/app.py": "7dfeec9b81f34d458dcc35fbdd91a7b1185f6a851496db746c80b97482d86dbe",
+    "backend/outline.py": "66e7e6ca6cb6f6dd8885acf29c0740435ab03b16f861e09acef149078f685098",
+    "backend/planner.py": "956610196c0fd2cff14aa731d133112ea8ed5dccac90e826009b4adf6231dbbe",
+    "backend/quality.py": "aec3b0ca95f8efd426a3a92b12a811dc198fd2cee369ff170a8f35848d10be6b",
+    "backend/qwen.py": "8df06b48dd9e7eef315585d6762120de1ba01782dc1afb04caa481d9ba7f1489",
+    "backend/validation.py": "21c75c66508c5ffbeac45e0c0f1ddfdacc9ad153e23ae77eea80656a9d68db29",
+    "backend/weather.py": "9c88031bf5daf79fdac4205a4c736b3922da34ec6126b1588ed63a1f75382559",
+    "scripts/run_acceptance.py": "130df15fea5f5b71cb8788f29f3253338d1e65cfa1061b14738a626c17526a3c"
+  },
+  "cases": [
+    {
+      "id": "C01",
+      "weather": "clear",
+      "days": 1,
+      "input": {
+        "destination": "London",
+        "start": "2026-10-24",
+        "end": "2026-10-24",
+        "travellers": 1,
+        "budget": 500,
+        "currency": "GBP",
+        "interests": [
+          "History",
+          "Photography"
+        ],
+        "notes": "Avoid repeated venues. Leave realistic travel gaps. Adapt activities to the supplied weather; do not invent missing forecasts."
+      }
+    },
+    {
+      "id": "C02",
+      "weather": "rain",
+      "days": 2,
+      "input": {
+        "destination": "Edinburgh",
+        "start": "2026-10-24",
+        "end": "2026-10-25",
+        "travellers": 2,
+        "budget": 600,
+        "currency": "GBP",
+        "interests": [
+          "History",
+          "Art & Culture"
+        ],
+        "notes": "Avoid repeated venues. Leave realistic travel gaps. Adapt activities to the supplied weather; do not invent missing forecasts."
+      }
+    },
+    {
+      "id": "C03",
+      "weather": "mixed",
+      "days": 7,
+      "input": {
+        "destination": "Manchester",
+        "start": "2026-10-24",
+        "end": "2026-10-30",
+        "travellers": 3,
+        "budget": 2200,
+        "currency": "GBP",
+        "interests": [
+          "Food",
+          "Nature",
+          "History"
+        ],
+        "notes": "Avoid repeated venues. Leave realistic travel gaps. Adapt activities to the supplied weather; do not invent missing forecasts."
+      }
+    },
+    {
+      "id": "C04",
+      "weather": "alternating",
+      "days": 14,
+      "input": {
+        "destination": "London",
+        "start": "2026-10-24",
+        "end": "2026-11-06",
+        "travellers": 2,
+        "budget": 4000,
+        "currency": "GBP",
+        "interests": [
+          "History",
+          "Art & Culture",
+          "Nature",
+          "Photography"
+        ],
+        "notes": "Avoid repeated venues. Leave realistic travel gaps. Adapt activities to the supplied weather; do not invent missing forecasts."
+      }
+    },
+    {
+      "id": "C05",
+      "weather": "wind",
+      "days": 1,
+      "input": {
+        "destination": "Cardiff",
+        "start": "2026-10-24",
+        "end": "2026-10-24",
+        "travellers": 50,
+        "budget": 1,
+        "currency": "GBP",
+        "interests": [
+          "Nature",
+          "History"
+        ],
+        "notes": "Avoid repeated venues. Leave realistic travel gaps. Adapt activities to the supplied weather; do not invent missing forecasts."
+      }
+    },
+    {
+      "id": "C06",
+      "weather": "outage",
+      "days": 3,
+      "input": {
+        "destination": "Belfast",
+        "start": "2026-10-24",
+        "end": "2026-10-26",
+        "travellers": 8,
+        "budget": 100000,
+        "currency": "GBP",
+        "interests": [
+          "Food",
+          "History"
+        ],
+        "notes": "Avoid repeated venues. Leave realistic travel gaps. Adapt activities to the supplied weather; do not invent missing forecasts."
+      }
+    },
+    {
+      "id": "C07",
+      "weather": "out_of_range",
+      "days": 2,
+      "input": {
+        "destination": "Bath",
+        "start": "2026-11-20",
+        "end": "2026-11-21",
+        "travellers": 4,
+        "budget": 800,
+        "currency": "GBP",
+        "interests": [
+          "History",
+          "Photography"
+        ],
+        "notes": "Avoid repeated venues. Leave realistic travel gaps. Adapt activities to the supplied weather; do not invent missing forecasts."
+      }
+    },
+    {
+      "id": "C08",
+      "weather": "partial",
+      "days": 4,
+      "input": {
+        "destination": "York",
+        "start": "2026-11-05",
+        "end": "2026-11-08",
+        "travellers": 1,
+        "budget": 500,
+        "currency": "GBP",
+        "interests": [
+          "History",
+          "Art & Culture"
+        ],
+        "notes": "Avoid repeated venues. Leave realistic travel gaps. Adapt activities to the supplied weather; do not invent missing forecasts."
+      }
+    }
+  ],
+  "repeatsPerCase": 1
+}

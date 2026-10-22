@@ -1,0 +1,42 @@
+[
+  {
+    "id": "unsupported_city",
+    "status": 400,
+    "pass": true
+  },
+  {
+    "id": "15_days",
+    "status": 400,
+    "pass": true
+  },
+  {
+    "id": "zero_people",
+    "status": 400,
+    "pass": true
+  },
+  {
+    "id": "51_people",
+    "status": 400,
+    "pass": true
+  },
+  {
+    "id": "fractional_people",
+    "status": 400,
+    "pass": true
+  },
+  {
+    "id": "zero_budget",
+    "status": 400,
+    "pass": true
+  },
+  {
+    "id": "over_max_budget",
+    "status": 400,
+    "pass": true
+  },
+  {
+    "id": "reverse_dates",
+    "status": 400,
+    "pass": true
+  }
+]

@@ -1,0 +1,367 @@
+{
+  "id": "C06",
+  "weather": "outage",
+  "days": 3,
+  "input": {
+    "destination": "Belfast",
+    "start": "2026-10-24",
+    "end": "2026-10-26",
+    "travellers": 8,
+    "budget": 100000,
+    "currency": "GBP",
+    "interests": [
+      "Food",
+      "History"
+    ],
+    "notes": "Avoid repeated venues. Leave realistic travel gaps. Adapt activities to the supplied weather; do not invent missing forecasts."
+  },
+  "status": 200,
+  "seconds": 41.926,
+  "response": {
+    "trip": {
+      "budget": 100000.0,
+      "currency": "GBP",
+      "destination": "Belfast",
+      "end": "2026-10-26",
+      "id": "ade2a737-ef71-495d-9b75-e2e714063c79",
+      "interests": [
+        "Food",
+        "History"
+      ],
+      "itinerary": {
+        "checks": {
+          "activityTimesNonOverlapping": true,
+          "durationDays": 3,
+          "estimatedTravelGapsChecked": true,
+          "factsVerified": false,
+          "namedAttractionsUnique": true,
+          "withinBudget": true
+        },
+        "costs": [
+          {
+            "label": "Intercity transport",
+            "value": 0
+          },
+          {
+            "label": "Accommodation",
+            "value": 320
+          },
+          {
+            "label": "Food",
+            "value": 1424
+          },
+          {
+            "label": "Activities",
+            "value": 368
+          },
+          {
+            "label": "Local transport",
+            "value": 80
+          }
+        ],
+        "days": [
+          {
+            "activities": [
+              {
+                "cost": 18,
+                "costCategory": "Food",
+                "description": "Traditional Ulster fry with soda farl and potato bread.",
+                "icon": "food",
+                "note": "Served at accommodation or local café.",
+                "period": "Morning",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "08:30 - 09:30",
+                "title": "Breakfast",
+                "travel": "15 min to next activity",
+                "travelMinutes": 15,
+                "weatherReason": "Weather forecast unavailable. Planning continues with indoor alternatives."
+              },
+              {
+                "cost": 22,
+                "costCategory": "Activities",
+                "description": "Award-winning museum exploring the ship's history, construction, and legacy.",
+                "icon": "museum",
+                "note": "Book timed entry; allow time for security.",
+                "period": "Morning",
+                "places": [
+                  "Titanic Belfast"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Art & Culture"
+                ],
+                "time": "10:00 - 12:30",
+                "title": "Titanic Belfast",
+                "travel": "20 min to next activity",
+                "travelMinutes": 20,
+                "weatherReason": "Weather forecast unavailable. Planning continues with indoor alternatives."
+              },
+              {
+                "cost": 25,
+                "costCategory": "Food",
+                "description": "Local food stalls offering bangers & mash, seafood chowder, and craft cider.",
+                "icon": "food",
+                "indoorAlternative": "Belfast Empire Music Hall (lunch in lounge)",
+                "note": "Open weekends only; check Saturday hours.",
+                "period": "Afternoon",
+                "places": [
+                  "St George's Market"
+                ],
+                "setting": "mixed",
+                "tags": [
+                  "Food",
+                  "Shopping"
+                ],
+                "time": "13:00 - 14:30",
+                "title": "Lunch at St George's Market",
+                "travel": "10 min to next activity",
+                "travelMinutes": 10,
+                "weatherReason": "Weather forecast unavailable. Planning continues with indoor alternatives."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Free guided tour of the historic civic building and its stained-glass heritage.",
+                "icon": "museum",
+                "note": "Booking essential; photo restrictions apply.",
+                "period": "Afternoon",
+                "places": [
+                  "Belfast City Hall"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History"
+                ],
+                "time": "14:45 - 16:45",
+                "title": "Belfast City Hall Tour",
+                "travelMinutes": 0,
+                "weatherReason": "Weather forecast unavailable. Planning continues with indoor alternatives."
+              }
+            ],
+            "date": "2026-10-24"
+          },
+          {
+            "activities": [
+              {
+                "cost": 18,
+                "costCategory": "Food",
+                "description": "Full Irish breakfast with local black pudding and brown soda bread.",
+                "icon": "food",
+                "note": "Served at accommodation or nearby pub.",
+                "period": "Morning",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "08:30 - 09:30",
+                "title": "Breakfast",
+                "travel": "25 min to next activity",
+                "travelMinutes": 25,
+                "weatherReason": "Weather forecast unavailable. Planning continues with indoor alternatives."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Free entry to galleries covering Northern Ireland’s natural history, art, and conflict legacy.",
+                "icon": "museum",
+                "note": "Free admission; donations welcome.",
+                "period": "Morning",
+                "places": [
+                  "Ulster Museum"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Art & Culture"
+                ],
+                "time": "10:00 - 12:00",
+                "title": "Ulster Museum",
+                "travel": "15 min to next activity",
+                "travelMinutes": 15,
+                "weatherReason": "Weather forecast unavailable. Planning continues with indoor alternatives."
+              },
+              {
+                "cost": 32,
+                "costCategory": "Food",
+                "description": "Contemporary Northern Irish fare — think dulse seaweed crisps and Donegal lamb.",
+                "icon": "food",
+                "note": "Reserve ahead; venues may close early Sunday.",
+                "period": "Afternoon",
+                "places": [
+                  "Cathedral Quarter"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "12:15 - 13:45",
+                "title": "Lunch in the Cathedral Quarter",
+                "travel": "20 min to next activity",
+                "travelMinutes": 20,
+                "weatherReason": "Weather forecast unavailable. Planning continues with indoor alternatives."
+              },
+              {
+                "cost": 24,
+                "costCategory": "Activities",
+                "description": "Historic Victorian prison with immersive audio tours and original cells.",
+                "icon": "museum",
+                "note": "Timed entry; wear comfortable shoes.",
+                "period": "Afternoon",
+                "places": [
+                  "Crumlin Road Gaol"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History"
+                ],
+                "time": "14:15 - 16:30",
+                "title": "Crumlin Road Gaol Tour",
+                "travelMinutes": 0,
+                "weatherReason": "Weather forecast unavailable. Planning continues with indoor alternatives."
+              }
+            ],
+            "date": "2026-10-25"
+          },
+          {
+            "activities": [
+              {
+                "cost": 20,
+                "costCategory": "Food",
+                "description": "Smoked salmon blinis and local yogurt with apple compote.",
+                "icon": "food",
+                "note": "Final morning; check-out by 11:00.",
+                "period": "Morning",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "08:30 - 09:30",
+                "title": "Breakfast",
+                "travel": "10 min to next activity",
+                "travelMinutes": 10,
+                "weatherReason": "Weather forecast unavailable. Planning continues with indoor alternatives."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Victorian glasshouse with tropical plants and ornate ironwork.",
+                "icon": "nature",
+                "indoorAlternative": "Palm House (fully enclosed)",
+                "note": "Palm House open daily; gardens free.",
+                "period": "Morning",
+                "places": [
+                  "Botanic Gardens",
+                  "Palm House"
+                ],
+                "setting": "mixed",
+                "tags": [
+                  "History",
+                  "Nature"
+                ],
+                "time": "10:00 - 11:30",
+                "title": "Botanic Gardens & Palm House",
+                "travel": "15 min to next activity",
+                "travelMinutes": 15,
+                "weatherReason": "Weather forecast unavailable. Planning continues with indoor alternatives."
+              },
+              {
+                "cost": 65,
+                "costCategory": "Food",
+                "description": "Fine dining in a restored Edwardian bank; whiskey-cured salmon and Armagh apple tart.",
+                "icon": "food",
+                "note": "Dress code smart casual; book ahead.",
+                "period": "Afternoon",
+                "places": [
+                  "The Merchant Hotel"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "Food",
+                  "History"
+                ],
+                "time": "11:45 - 13:15",
+                "title": "Dinner at The Merchant Hotel",
+                "travelMinutes": 0,
+                "weatherReason": "Weather forecast unavailable. Planning continues with indoor alternatives."
+              }
+            ],
+            "date": "2026-10-26"
+          }
+        ],
+        "mode": "qwen",
+        "model": "qwen-plus",
+        "promptVersion": "qwen-travel-v6",
+        "total": 2192,
+        "warnings": [
+          "Food/activity group allowances were increased to cover the listed per-person costs for all travellers; check the revised estimate.",
+          "AI-generated estimates; prices, opening hours and travel times are unverified.",
+          "Travel to/from the destination is excluded because no departure city was provided. Arrive before the first activity.",
+          "Activity times do not overlap; travel feasibility and opening hours still require checking."
+        ],
+        "weather": {
+          "days": [
+            {
+              "date": "2026-10-24",
+              "reason": "Weather forecast unavailable. Planning continues with indoor alternatives.",
+              "recommendation": "unknown",
+              "status": "unavailable"
+            },
+            {
+              "date": "2026-10-25",
+              "reason": "Weather forecast unavailable. Planning continues with indoor alternatives.",
+              "recommendation": "unknown",
+              "status": "unavailable"
+            },
+            {
+              "date": "2026-10-26",
+              "reason": "Weather forecast unavailable. Planning continues with indoor alternatives.",
+              "recommendation": "unknown",
+              "status": "unavailable"
+            }
+          ],
+          "fetchedAt": null,
+          "source": "Open-Meteo",
+          "sourceUrl": "https://open-meteo.com/",
+          "status": "unavailable",
+          "timezone": "Europe/London"
+        }
+      },
+      "notes": "Avoid repeated venues. Leave realistic travel gaps. Adapt activities to the supplied weather; do not invent missing forecasts.",
+      "start": "2026-10-24",
+      "travellers": 8
+    }
+  },
+  "validationEvents": [],
+  "metrics": {
+    "schema_dates_times": true,
+    "repeated_names": [],
+    "no_detected_repeats": true,
+    "travel_gaps": true,
+    "category_minima": true,
+    "sum_consistent": true,
+    "budget_flag_consistent": true,
+    "over_budget": false,
+    "over_budget_disclosed": true,
+    "weather_snapshot_matches": true,
+    "weather_reason_authoritative": true,
+    "outdoor_backups": true,
+    "allocation_matches": true,
+    "bad_weather_named_activities": 0,
+    "bad_weather_outdoor_or_mixed": [],
+    "estimated_total": 2192,
+    "warnings": [
+      "Food/activity group allowances were increased to cover the listed per-person costs for all travellers; check the revised estimate.",
+      "AI-generated estimates; prices, opening hours and travel times are unverified.",
+      "Travel to/from the destination is excluded because no departure city was provided. Arrive before the first activity.",
+      "Activity times do not overlap; travel feasibility and opening hours still require checking."
+    ],
+    "contract_pass": true
+  }
+}

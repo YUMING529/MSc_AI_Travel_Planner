@@ -1,0 +1,302 @@
+{
+  "id": "C02",
+  "weather": "rain",
+  "days": 2,
+  "input": {
+    "destination": "Edinburgh",
+    "start": "2026-10-24",
+    "end": "2026-10-25",
+    "travellers": 2,
+    "budget": 600,
+    "currency": "GBP",
+    "interests": [
+      "History",
+      "Art & Culture"
+    ],
+    "notes": "Avoid repeated venues. Leave realistic travel gaps. Adapt activities to the supplied weather; do not invent missing forecasts."
+  },
+  "status": 200,
+  "seconds": 31.112,
+  "response": {
+    "trip": {
+      "budget": 600.0,
+      "currency": "GBP",
+      "destination": "Edinburgh",
+      "end": "2026-10-25",
+      "id": "b2384681-29a2-4353-a6b3-5b9cb0828c63",
+      "interests": [
+        "History",
+        "Art & Culture"
+      ],
+      "itinerary": {
+        "checks": {
+          "activityTimesNonOverlapping": true,
+          "durationDays": 2,
+          "estimatedTravelGapsChecked": true,
+          "factsVerified": false,
+          "namedAttractionsUnique": true,
+          "withinBudget": true
+        },
+        "costs": [
+          {
+            "label": "Intercity transport",
+            "value": 0
+          },
+          {
+            "label": "Accommodation",
+            "value": 120
+          },
+          {
+            "label": "Food",
+            "value": 248
+          },
+          {
+            "label": "Activities",
+            "value": 44
+          },
+          {
+            "label": "Local transport",
+            "value": 10
+          }
+        ],
+        "days": [
+          {
+            "activities": [
+              {
+                "cost": 12,
+                "costCategory": "Food",
+                "description": "Light breakfast at accommodation or nearby café.",
+                "icon": "food",
+                "note": "Budget-friendly local options available.",
+                "period": "Morning",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "08:30 - 09:30",
+                "title": "Breakfast",
+                "travel": "5 min to next activity",
+                "travelMinutes": 5,
+                "weatherReason": "Prefer indoor activities because rain is likely or substantial rain is forecast."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Free entry; explore Scottish history, archaeology and world cultures across five floors.",
+                "icon": "museum",
+                "note": "Check opening hours; free but donation encouraged.",
+                "period": "Morning",
+                "places": [
+                  "National Museum of Scotland"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Art & Culture"
+                ],
+                "time": "10:00 - 12:30",
+                "title": "National Museum of Scotland",
+                "travel": "10 min to next activity",
+                "travelMinutes": 10,
+                "weatherReason": "Prefer indoor activities because rain is likely or substantial rain is forecast."
+              },
+              {
+                "cost": 25,
+                "costCategory": "Food",
+                "description": "Café lunch inside the museum or nearby indoor eatery.",
+                "icon": "food",
+                "note": "Museum café offers hot meals and shelter.",
+                "period": "Afternoon",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "13:00 - 14:30",
+                "title": "Lunch",
+                "travelMinutes": 0,
+                "weatherReason": "Prefer indoor activities because rain is likely or substantial rain is forecast."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "World-class art collection including Scottish and European masters; free entry.",
+                "icon": "museum",
+                "note": "Book timed entry online if required.",
+                "period": "Afternoon",
+                "places": [
+                  "Scottish National Gallery"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "Art & Culture"
+                ],
+                "time": "15:00 - 17:00",
+                "title": "Scottish National Gallery",
+                "travel": "15 min to next activity",
+                "travelMinutes": 15,
+                "weatherReason": "Prefer indoor activities because rain is likely or substantial rain is forecast."
+              }
+            ],
+            "date": "2026-10-24"
+          },
+          {
+            "activities": [
+              {
+                "cost": 12,
+                "costCategory": "Food",
+                "description": "Breakfast at accommodation before checkout.",
+                "icon": "food",
+                "note": "Includes takeaway option for flexibility.",
+                "period": "Morning",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "08:30 - 09:30",
+                "title": "Breakfast",
+                "travelMinutes": 0,
+                "weatherReason": "Prefer indoor activities because rain is likely or substantial rain is forecast."
+              },
+              {
+                "cost": 22,
+                "costCategory": "Activities",
+                "description": "Iconic fortress with Crown Jewels, Stone of Destiny, and military history exhibits.",
+                "icon": "museum",
+                "indoorAlternative": "The Real Mary King's Close (book ahead)",
+                "note": "Pre-book tickets; allow time for security checks.",
+                "period": "Morning",
+                "places": [
+                  "Edinburgh Castle"
+                ],
+                "setting": "mixed",
+                "tags": [
+                  "History"
+                ],
+                "time": "10:00 - 12:30",
+                "title": "Edinburgh Castle",
+                "travel": "15 min to next activity",
+                "travelMinutes": 15,
+                "weatherReason": "Prefer indoor activities because rain is likely or substantial rain is forecast."
+              },
+              {
+                "cost": 30,
+                "costCategory": "Food",
+                "description": "Indoor lunch near Royal Mile — traditional Scottish fare.",
+                "icon": "food",
+                "note": "Sheltered seating available in most venues.",
+                "period": "Afternoon",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "13:00 - 14:30",
+                "title": "Lunch",
+                "travel": "5 min to next activity",
+                "travelMinutes": 5,
+                "weatherReason": "Prefer indoor activities because rain is likely or substantial rain is forecast."
+              },
+              {
+                "cost": 45,
+                "costCategory": "Food",
+                "description": "Early dinner at a historic pub with live folk music.",
+                "icon": "food",
+                "note": "Reserve table; warm, atmospheric setting.",
+                "period": "Afternoon",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food",
+                  "Nightlife"
+                ],
+                "time": "15:00 - 17:00",
+                "title": "Dinner",
+                "travel": "10 min to next activity",
+                "travelMinutes": 10,
+                "weatherReason": "Prefer indoor activities because rain is likely or substantial rain is forecast."
+              }
+            ],
+            "date": "2026-10-25"
+          }
+        ],
+        "mode": "qwen",
+        "model": "qwen-plus",
+        "promptVersion": "qwen-travel-v6",
+        "total": 422,
+        "warnings": [
+          "Food/activity group allowances were increased to cover the listed per-person costs for all travellers; check the revised estimate.",
+          "AI-generated estimates; prices, opening hours and travel times are unverified.",
+          "Travel to/from the destination is excluded because no departure city was provided. Arrive before the first activity.",
+          "Activity times do not overlap; travel feasibility and opening hours still require checking."
+        ],
+        "weather": {
+          "days": [
+            {
+              "date": "2026-10-24",
+              "rainProbability": 85,
+              "reason": "Prefer indoor activities because rain is likely or substantial rain is forecast.",
+              "recommendation": "indoor",
+              "status": "available",
+              "summary": "Rain / showers",
+              "temperatureMax": 17,
+              "temperatureMin": 9,
+              "weatherCode": 63,
+              "windSpeed": 18
+            },
+            {
+              "date": "2026-10-25",
+              "rainProbability": 85,
+              "reason": "Prefer indoor activities because rain is likely or substantial rain is forecast.",
+              "recommendation": "indoor",
+              "status": "available",
+              "summary": "Rain / showers",
+              "temperatureMax": 17,
+              "temperatureMin": 9,
+              "weatherCode": 63,
+              "windSpeed": 18
+            }
+          ],
+          "fetchedAt": "2026-10-22T12:00:00+01:00",
+          "source": "Open-Meteo",
+          "sourceUrl": "https://open-meteo.com/",
+          "status": "available",
+          "timezone": "Europe/London"
+        }
+      },
+      "notes": "Avoid repeated venues. Leave realistic travel gaps. Adapt activities to the supplied weather; do not invent missing forecasts.",
+      "start": "2026-10-24",
+      "travellers": 2
+    }
+  },
+  "validationEvents": [],
+  "metrics": {
+    "schema_dates_times": true,
+    "repeated_names": [],
+    "no_detected_repeats": true,
+    "travel_gaps": true,
+    "category_minima": true,
+    "sum_consistent": true,
+    "budget_flag_consistent": true,
+    "over_budget": false,
+    "over_budget_disclosed": true,
+    "weather_snapshot_matches": true,
+    "weather_reason_authoritative": true,
+    "outdoor_backups": true,
+    "allocation_matches": true,
+    "bad_weather_named_activities": 3,
+    "bad_weather_outdoor_or_mixed": [
+      "Edinburgh Castle"
+    ],
+    "estimated_total": 422,
+    "warnings": [
+      "Food/activity group allowances were increased to cover the listed per-person costs for all travellers; check the revised estimate.",
+      "AI-generated estimates; prices, opening hours and travel times are unverified.",
+      "Travel to/from the destination is excluded because no departure city was provided. Arrive before the first activity.",
+      "Activity times do not overlap; travel feasibility and opening hours still require checking."
+    ],
+    "contract_pass": true
+  }
+}

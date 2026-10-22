@@ -1,0 +1,766 @@
+{
+  "id": "C03",
+  "weather": "mixed",
+  "days": 7,
+  "input": {
+    "destination": "Manchester",
+    "start": "2026-10-24",
+    "end": "2026-10-30",
+    "travellers": 3,
+    "budget": 2200,
+    "currency": "GBP",
+    "interests": [
+      "Food",
+      "Nature",
+      "History"
+    ],
+    "notes": "Avoid repeated venues. Leave realistic travel gaps. Adapt activities to the supplied weather; do not invent missing forecasts."
+  },
+  "status": 200,
+  "seconds": 53.725,
+  "response": {
+    "trip": {
+      "budget": 2200.0,
+      "currency": "GBP",
+      "destination": "Manchester",
+      "end": "2026-10-30",
+      "id": "bb38801e-4ae6-4140-8f6a-1318e6878357",
+      "interests": [
+        "Food",
+        "Nature",
+        "History"
+      ],
+      "itinerary": {
+        "checks": {
+          "activityTimesNonOverlapping": true,
+          "durationDays": 7,
+          "estimatedTravelGapsChecked": true,
+          "factsVerified": false,
+          "namedAttractionsUnique": true,
+          "withinBudget": true
+        },
+        "costs": [
+          {
+            "label": "Intercity transport",
+            "value": 0
+          },
+          {
+            "label": "Accommodation",
+            "value": 720
+          },
+          {
+            "label": "Food",
+            "value": 528
+          },
+          {
+            "label": "Activities",
+            "value": 66
+          },
+          {
+            "label": "Local transport",
+            "value": 75
+          }
+        ],
+        "days": [
+          {
+            "activities": [
+              {
+                "cost": 12,
+                "costCategory": "Food",
+                "description": "Local café breakfast with Manchester favourites like black pudding and kipper hash.",
+                "icon": "food",
+                "note": "No venue name — generic meal",
+                "period": "Morning",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "08:30 - 09:30",
+                "title": "Breakfast",
+                "travel": "12 min to next activity",
+                "travelMinutes": 12,
+                "weatherReason": "Keep plans flexible and provide indoor alternatives."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Free entry to world cultures, Egyptology and natural history exhibits.",
+                "icon": "museum",
+                "note": "Check opening hours and price",
+                "period": "Morning",
+                "places": [
+                  "Manchester Museum"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Nature"
+                ],
+                "time": "10:00 - 12:30",
+                "title": "Manchester Museum",
+                "travel": "15 min to next activity",
+                "travelMinutes": 15,
+                "weatherReason": "Keep plans flexible and provide indoor alternatives."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Contemporary art, textiles and sculpture, plus parkland views.",
+                "icon": "camera",
+                "note": "Free entry; gallery café available",
+                "period": "Afternoon",
+                "places": [
+                  "Whitworth Art Gallery"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "Art & Culture",
+                  "Nature"
+                ],
+                "time": "13:00 - 15:30",
+                "title": "Whitworth Art Gallery",
+                "travelMinutes": 0,
+                "weatherReason": "Keep plans flexible and provide indoor alternatives."
+              }
+            ],
+            "date": "2026-10-24"
+          },
+          {
+            "activities": [
+              {
+                "cost": 12,
+                "costCategory": "Food",
+                "description": "Hearty Northern breakfast with local sausages and baked beans.",
+                "icon": "food",
+                "note": "No venue name — generic meal",
+                "period": "Morning",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "08:30 - 09:30",
+                "title": "Breakfast",
+                "travel": "20 min to next activity",
+                "travelMinutes": 20,
+                "weatherReason": "Keep plans flexible and provide indoor alternatives."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Roman fort ruins, canals and industrial archaeology in city centre.",
+                "icon": "nature",
+                "indoorAlternative": "People's History Museum (5-min walk, free entry)",
+                "note": "Outdoor site; bring waterproof layer",
+                "period": "Morning",
+                "places": [
+                  "Castlefield Urban Heritage Park"
+                ],
+                "setting": "outdoor",
+                "tags": [
+                  "History",
+                  "Nature"
+                ],
+                "time": "10:00 - 12:00",
+                "title": "Castlefield Urban Heritage Park",
+                "travel": "18 min to next activity",
+                "travelMinutes": 18,
+                "weatherReason": "Keep plans flexible and provide indoor alternatives."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Gothic masterpiece with medieval manuscripts and quiet reading rooms.",
+                "icon": "museum",
+                "note": "Free entry; photography permitted in main hall",
+                "period": "Afternoon",
+                "places": [
+                  "John Rylands Library"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Art & Culture"
+                ],
+                "time": "12:30 - 15:00",
+                "title": "John Rylands Library",
+                "travelMinutes": 0,
+                "weatherReason": "Keep plans flexible and provide indoor alternatives."
+              }
+            ],
+            "date": "2026-10-25"
+          },
+          {
+            "activities": [
+              {
+                "cost": 12,
+                "costCategory": "Food",
+                "description": "Traditional full English with local eggs and mushrooms.",
+                "icon": "food",
+                "note": "No venue name — generic meal",
+                "period": "Morning",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "08:30 - 09:30",
+                "title": "Breakfast",
+                "travel": "25 min to next activity",
+                "travelMinutes": 25,
+                "weatherReason": "Keep plans flexible and provide indoor alternatives."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Largest municipal park in UK: deer park, historic hall and lakes.",
+                "icon": "nature",
+                "indoorAlternative": "Manchester Art Gallery (15-min tram, free entry)",
+                "note": "Free entry; parkland may be muddy",
+                "period": "Morning",
+                "places": [
+                  "Heaton Park"
+                ],
+                "setting": "outdoor",
+                "tags": [
+                  "Nature",
+                  "History"
+                ],
+                "time": "10:15 - 12:45",
+                "title": "Heaton Park",
+                "travel": "22 min to next activity",
+                "travelMinutes": 22,
+                "weatherReason": "Keep plans flexible and provide indoor alternatives."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Medieval Gothic cathedral with stained glass and peaceful cloisters.",
+                "icon": "museum",
+                "note": "Donations welcome; check service times",
+                "period": "Afternoon",
+                "places": [
+                  "Manchester Cathedral"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Art & Culture"
+                ],
+                "time": "13:30 - 15:00",
+                "title": "Manchester Cathedral",
+                "travelMinutes": 0,
+                "weatherReason": "Keep plans flexible and provide indoor alternatives."
+              }
+            ],
+            "date": "2026-10-26"
+          },
+          {
+            "activities": [
+              {
+                "cost": 12,
+                "costCategory": "Food",
+                "description": "Local café breakfast with Manchester honey and sourdough toast.",
+                "icon": "food",
+                "note": "Served until 10:00; book ahead for groups.",
+                "period": "Morning",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "08:30 - 09:30",
+                "title": "Breakfast",
+                "travel": "5 min to next activity",
+                "travelMinutes": 5,
+                "weatherReason": "Keep plans flexible and provide indoor alternatives."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Street art, indie boutiques and historic Victorian arcades.",
+                "icon": "pin",
+                "indoorAlternative": "Manchester Central Library (5-min walk, free entry)",
+                "note": "Free to wander; check arcade opening times.",
+                "period": "Morning",
+                "places": [
+                  "Northern Quarter"
+                ],
+                "setting": "mixed",
+                "tags": [
+                  "History",
+                  "Shopping",
+                  "Photography"
+                ],
+                "time": "10:00 - 12:30",
+                "title": "Northern Quarter Exploration",
+                "travel": "10 min to next activity",
+                "travelMinutes": 10,
+                "weatherReason": "Keep plans flexible and provide indoor alternatives."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Explore Manchester’s industrial legacy, including the world’s first railway station.",
+                "icon": "museum",
+                "note": "Free entry; timed slots recommended.",
+                "period": "Afternoon",
+                "places": [
+                  "Science and Industry Museum"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Nature"
+                ],
+                "time": "13:00 - 16:00",
+                "title": "Science and Industry Museum",
+                "travel": "15 min to next activity",
+                "travelMinutes": 15,
+                "weatherReason": "Keep plans flexible and provide indoor alternatives."
+              },
+              {
+                "cost": 24,
+                "costCategory": "Food",
+                "description": "Hearty Lancashire hotpot and local ale at a traditional pub.",
+                "icon": "food",
+                "note": "Group-friendly seating; reserve for 3.",
+                "period": "Afternoon",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "16:30 - 18:00",
+                "title": "Dinner",
+                "travel": "8 min to next activity",
+                "travelMinutes": 8,
+                "weatherReason": "Keep plans flexible and provide indoor alternatives."
+              }
+            ],
+            "date": "2026-10-27"
+          },
+          {
+            "activities": [
+              {
+                "cost": 14,
+                "costCategory": "Food",
+                "description": "Full English with black pudding and baked beans.",
+                "icon": "food",
+                "note": "Served until 10:30; vegetarian options available.",
+                "period": "Morning",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "08:30 - 09:30",
+                "title": "Breakfast",
+                "travel": "15 min to next activity",
+                "travelMinutes": 15,
+                "weatherReason": "Keep plans flexible and provide indoor alternatives."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "England’s oldest public library, founded in 1653, with medieval manuscripts.",
+                "icon": "museum",
+                "note": "Free entry; guided tours at 11:00 (book ahead).",
+                "period": "Morning",
+                "places": [
+                  "Chetham's Library"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Art & Culture"
+                ],
+                "time": "10:00 - 12:00",
+                "title": "Chetham's Library",
+                "travel": "5 min to next activity",
+                "travelMinutes": 5,
+                "weatherReason": "Keep plans flexible and provide indoor alternatives."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Iconic civic space with Gothic Town Hall and seasonal street performers.",
+                "icon": "pin",
+                "indoorAlternative": "Manchester Town Hall Extension (free public areas, 2-min walk)",
+                "note": "Free access; best light for photos midday.",
+                "period": "Afternoon",
+                "places": [
+                  "Albert Square"
+                ],
+                "setting": "outdoor",
+                "tags": [
+                  "History",
+                  "Photography"
+                ],
+                "time": "12:30 - 14:30",
+                "title": "Albert Square",
+                "travel": "10 min to next activity",
+                "travelMinutes": 10,
+                "weatherReason": "Keep plans flexible and provide indoor alternatives."
+              },
+              {
+                "cost": 21,
+                "costCategory": "Food",
+                "description": "Vegetable samosas and spiced lentil dhal at a South Asian café.",
+                "icon": "food",
+                "note": "Casual seating; halal and vegan options.",
+                "period": "Afternoon",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "15:00 - 16:30",
+                "title": "Lunch",
+                "travel": "12 min to next activity",
+                "travelMinutes": 12,
+                "weatherReason": "Keep plans flexible and provide indoor alternatives."
+              }
+            ],
+            "date": "2026-10-28"
+          },
+          {
+            "activities": [
+              {
+                "cost": 13,
+                "costCategory": "Food",
+                "description": "Oat pancakes with seasonal berries and clotted cream.",
+                "icon": "food",
+                "note": "Served until 11:00; popular with locals.",
+                "period": "Morning",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "08:30 - 09:30",
+                "title": "Breakfast",
+                "travel": "10 min to next activity",
+                "travelMinutes": 10,
+                "weatherReason": "Keep plans flexible and provide indoor alternatives."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Free collection spanning Pre-Raphaelites, contemporary works and local history.",
+                "icon": "museum",
+                "note": "Free entry; audio guide available for £3.",
+                "period": "Morning",
+                "places": [
+                  "Manchester Art Gallery"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "Art & Culture",
+                  "History"
+                ],
+                "time": "10:00 - 12:30",
+                "title": "Manchester Art Gallery",
+                "travel": "5 min to next activity",
+                "travelMinutes": 5,
+                "weatherReason": "Keep plans flexible and provide indoor alternatives."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Urban green space with fountains, sculptures and relaxed seating.",
+                "icon": "nature",
+                "indoorAlternative": "The Whitworth Art Gallery (15-min bus ride, free entry)",
+                "note": "Free access; benches shaded by mature trees.",
+                "period": "Afternoon",
+                "places": [
+                  "Piccadilly Gardens"
+                ],
+                "setting": "outdoor",
+                "tags": [
+                  "Nature",
+                  "Photography"
+                ],
+                "time": "13:00 - 14:30",
+                "title": "Piccadilly Gardens",
+                "travel": "10 min to next activity",
+                "travelMinutes": 10,
+                "weatherReason": "Keep plans flexible and provide indoor alternatives."
+              },
+              {
+                "cost": 26,
+                "costCategory": "Food",
+                "description": "Roast chicken with root vegetables and Yorkshire pudding.",
+                "icon": "food",
+                "note": "Traditional Sunday roast served until 17:00.",
+                "period": "Afternoon",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "15:00 - 16:30",
+                "title": "Dinner",
+                "travelMinutes": 0,
+                "weatherReason": "Keep plans flexible and provide indoor alternatives."
+              }
+            ],
+            "date": "2026-10-29"
+          },
+          {
+            "activities": [
+              {
+                "cost": 12,
+                "costCategory": "Food",
+                "description": "Light local breakfast with pastries, fruit and coffee.",
+                "icon": "food",
+                "note": "Served at café near accommodation",
+                "period": "Morning",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "08:30 - 09:30",
+                "title": "Breakfast",
+                "travel": "25 min to next activity",
+                "travelMinutes": 25,
+                "weatherReason": "Keep plans flexible and provide indoor alternatives."
+              },
+              {
+                "cost": 22,
+                "costCategory": "Activities",
+                "description": "Guided tour of the iconic football stadium and museum.",
+                "icon": "museum",
+                "indoorAlternative": "National Football Museum (indoor, 15-min walk from Town Hall)",
+                "note": "Book ahead; check opening hours",
+                "period": "Morning",
+                "places": [
+                  "Old Trafford"
+                ],
+                "setting": "mixed",
+                "tags": [
+                  "History"
+                ],
+                "time": "10:00 - 12:30",
+                "title": "Old Trafford Stadium Tour",
+                "travel": "20 min to next activity",
+                "travelMinutes": 20,
+                "weatherReason": "Keep plans flexible and provide indoor alternatives."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Explore Gothic Revival architecture and historic council chambers.",
+                "icon": "museum",
+                "note": "Free entry; guided tours optional",
+                "period": "Afternoon",
+                "places": [
+                  "Manchester Town Hall"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Art & Culture"
+                ],
+                "time": "13:00 - 14:30",
+                "title": "Manchester Town Hall Visit",
+                "travel": "5 min to next activity",
+                "travelMinutes": 5,
+                "weatherReason": "Keep plans flexible and provide indoor alternatives."
+              },
+              {
+                "cost": 18,
+                "costCategory": "Food",
+                "description": "Traditional Lancashire hotpot and seasonal vegetables.",
+                "icon": "food",
+                "note": "Near Town Hall; no venue name in places",
+                "period": "Afternoon",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "15:00 - 16:30",
+                "title": "Lunch",
+                "travelMinutes": 0,
+                "weatherReason": "Keep plans flexible and provide indoor alternatives."
+              }
+            ],
+            "date": "2026-10-30"
+          }
+        ],
+        "mode": "qwen",
+        "model": "qwen-plus",
+        "promptVersion": "qwen-travel-v6",
+        "segments": 3,
+        "total": 1389,
+        "venueAllocation": {
+          "2026-10-24": [
+            "Manchester Museum",
+            "Whitworth Art Gallery"
+          ],
+          "2026-10-25": [
+            "Castlefield Urban Heritage Park",
+            "John Rylands Library"
+          ],
+          "2026-10-26": [
+            "Heaton Park",
+            "Manchester Cathedral"
+          ],
+          "2026-10-27": [
+            "Northern Quarter",
+            "Science and Industry Museum"
+          ],
+          "2026-10-28": [
+            "Chetham's Library",
+            "Albert Square"
+          ],
+          "2026-10-29": [
+            "Manchester Art Gallery",
+            "Piccadilly Gardens"
+          ],
+          "2026-10-30": [
+            "Old Trafford",
+            "Manchester Town Hall"
+          ]
+        },
+        "warnings": [
+          "AI-generated estimates; prices, opening hours and travel times are unverified.",
+          "Travel to/from the destination is excluded because no departure city was provided. Arrive before the first activity.",
+          "Activity times do not overlap; travel feasibility and opening hours still require checking.",
+          "Food/activity group allowances were increased to cover the listed per-person costs for all travellers; check the revised estimate.",
+          "Unsupported activity tags were omitted.",
+          "1 unallocated optional stops were omitted. Category allowances remain conservative estimates; travel estimates retain the original route.",
+          "Named-attraction duplicate checks are approximate; aliases, opening hours and actual travel times still need verification."
+        ],
+        "weather": {
+          "days": [
+            {
+              "date": "2026-10-24",
+              "rainProbability": 45,
+              "reason": "Keep plans flexible and provide indoor alternatives.",
+              "recommendation": "mixed",
+              "status": "available",
+              "summary": "Partly cloudy / overcast",
+              "temperatureMax": 17,
+              "temperatureMin": 9,
+              "weatherCode": 3,
+              "windSpeed": 20
+            },
+            {
+              "date": "2026-10-25",
+              "rainProbability": 45,
+              "reason": "Keep plans flexible and provide indoor alternatives.",
+              "recommendation": "mixed",
+              "status": "available",
+              "summary": "Partly cloudy / overcast",
+              "temperatureMax": 17,
+              "temperatureMin": 9,
+              "weatherCode": 3,
+              "windSpeed": 20
+            },
+            {
+              "date": "2026-10-26",
+              "rainProbability": 45,
+              "reason": "Keep plans flexible and provide indoor alternatives.",
+              "recommendation": "mixed",
+              "status": "available",
+              "summary": "Partly cloudy / overcast",
+              "temperatureMax": 17,
+              "temperatureMin": 9,
+              "weatherCode": 3,
+              "windSpeed": 20
+            },
+            {
+              "date": "2026-10-27",
+              "rainProbability": 45,
+              "reason": "Keep plans flexible and provide indoor alternatives.",
+              "recommendation": "mixed",
+              "status": "available",
+              "summary": "Partly cloudy / overcast",
+              "temperatureMax": 17,
+              "temperatureMin": 9,
+              "weatherCode": 3,
+              "windSpeed": 20
+            },
+            {
+              "date": "2026-10-28",
+              "rainProbability": 45,
+              "reason": "Keep plans flexible and provide indoor alternatives.",
+              "recommendation": "mixed",
+              "status": "available",
+              "summary": "Partly cloudy / overcast",
+              "temperatureMax": 17,
+              "temperatureMin": 9,
+              "weatherCode": 3,
+              "windSpeed": 20
+            },
+            {
+              "date": "2026-10-29",
+              "rainProbability": 45,
+              "reason": "Keep plans flexible and provide indoor alternatives.",
+              "recommendation": "mixed",
+              "status": "available",
+              "summary": "Partly cloudy / overcast",
+              "temperatureMax": 17,
+              "temperatureMin": 9,
+              "weatherCode": 3,
+              "windSpeed": 20
+            },
+            {
+              "date": "2026-10-30",
+              "rainProbability": 45,
+              "reason": "Keep plans flexible and provide indoor alternatives.",
+              "recommendation": "mixed",
+              "status": "available",
+              "summary": "Partly cloudy / overcast",
+              "temperatureMax": 17,
+              "temperatureMin": 9,
+              "weatherCode": 3,
+              "windSpeed": 20
+            }
+          ],
+          "fetchedAt": "2026-10-22T12:00:00+01:00",
+          "source": "Open-Meteo",
+          "sourceUrl": "https://open-meteo.com/",
+          "status": "available",
+          "timezone": "Europe/London"
+        }
+      },
+      "notes": "Avoid repeated venues. Leave realistic travel gaps. Adapt activities to the supplied weather; do not invent missing forecasts.",
+      "start": "2026-10-24",
+      "travellers": 3
+    }
+  },
+  "validationEvents": [],
+  "metrics": {
+    "schema_dates_times": true,
+    "repeated_names": [],
+    "no_detected_repeats": true,
+    "travel_gaps": true,
+    "category_minima": true,
+    "sum_consistent": true,
+    "budget_flag_consistent": true,
+    "over_budget": false,
+    "over_budget_disclosed": true,
+    "weather_snapshot_matches": true,
+    "weather_reason_authoritative": true,
+    "outdoor_backups": true,
+    "allocation_matches": true,
+    "bad_weather_named_activities": 0,
+    "bad_weather_outdoor_or_mixed": [],
+    "estimated_total": 1389,
+    "warnings": [
+      "AI-generated estimates; prices, opening hours and travel times are unverified.",
+      "Travel to/from the destination is excluded because no departure city was provided. Arrive before the first activity.",
+      "Activity times do not overlap; travel feasibility and opening hours still require checking.",
+      "Food/activity group allowances were increased to cover the listed per-person costs for all travellers; check the revised estimate.",
+      "Unsupported activity tags were omitted.",
+      "1 unallocated optional stops were omitted. Category allowances remain conservative estimates; travel estimates retain the original route.",
+      "Named-attraction duplicate checks are approximate; aliases, opening hours and actual travel times still need verification."
+    ],
+    "contract_pass": true
+  }
+}

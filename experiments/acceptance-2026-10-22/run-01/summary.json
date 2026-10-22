@@ -1,0 +1,13 @@
+{
+  "cases": 8,
+  "generation_success": 8,
+  "generation_success_rate": 1.0,
+  "contract_pass": 8,
+  "invalid_inputs_pass": 8,
+  "invalid_inputs_total": 8,
+  "mean_seconds_all": 40.977,
+  "median_seconds_all": 37.64,
+  "max_seconds_all": 86.628,
+  "unchanged_sources": true,
+  "finishedAt": "2026-10-22T00:14:55.366923+08:00"
+}

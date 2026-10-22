@@ -1,0 +1,177 @@
+Browser tab: 4, Title: "TripMind · A little less planning. A lot more travelling.", URL: "http://127.0.0.1:5173/".
+1 AXWebArea TripMind · A little less planning. A lot more travelling., URL: 127.0.0.1:5173/
+	2 container root
+		3 container
+			4 button TripMind home
+				5 text ➤
+				6 text TripMind
+				7 text .
+			8 button Plan a Trip
+			9 button My Trips4
+				10 text My Trips
+				11 text 4
+			12 button About
+			13 container Guest profile
+				14 text T
+		107 container
+			108 button Plan a Trip
+			109 text / Your itinerary
+			110 text YOUR NEXT LITTLE ESCAPE
+			111 heading Your time in London., Value: 1
+				112 text Your time in 
+				113 container
+					114 text London .
+			115 text 22 Oct – 23 Oct 2026 · 2 days  ·  1 night · 1  traveller
+			116 button Edit Preferences
+			117 text A Qwen-generated plan based on your preferences. Qwen · AI itinerary Estimated total
+			118 text £303
+			119 text Your budget
+			120 text £500
+			121 text Remaining
+			122 text £197
+			123 text Budget used
+			124 container
+				125 text 61 %
+			126 heading Your day-by-day plan, Value: 2
+				127 text Your day-by-day plan
+			128 text Time to explore
+			129 container
+				130 text 01
+				131 heading Day 1 — Thursday, Value: 3
+					132 text Day  1 —  Thursday
+				133 text 22 October
+				134 container Weather for 2026-10-22
+					135 text Drizzle
+					136 text Indoor activities preferred
+					137 container
+						138 text 8.6 – 14  °C · Rain chance  86 % · Max wind  18.7  km/h
+					139 text Prefer indoor activities because rain is likely or substantial rain is forecast.
+					140 container
+						141 text Daily planning guidance, not an official weather warning.  Retrieved  21/10/2026, 10:21:26  (UK time). Saved forecast; not refreshed automatically. 
+						142 link Description: Weather data: Open-Meteo, Value: open-meteo.com/
+				143 text Morning · 10:00 - 12:00
+				144 text Free
+				145 heading British Museum, Value: 3
+					146 text British Museum
+				147 text Indoor
+				148 text World-class collection spanning 2 million years of history. Free entry; highlights include the Rosetta Stone and Parthenon sculptures.
+				149 text History Photography Matches your interests:  History + Photography
+				150 text Rain likely (86% probability); fully sheltered.
+				151 container
+					152 text ◷  Free entry; book timed slot online in advance.
+				153 text 5-min walk to next activity · estimate Afternoon · 12:30 - 13:30
+				154 text £18
+				155 heading Lunch at The Vaults Café, Value: 3
+					156 text Lunch at The Vaults Café
+				157 text Indoor
+				158 text Historic underground café beneath London Bridge Station with British comfort food and vintage ambiance.
+				159 text Food History Matches your interests:  Food + History
+				160 text Rain forecast; fully indoor dining.
+				161 container
+					162 text ◷  Vegetarian options available; expect queues at peak times.
+				163 text 10-min walk to next activity · estimate Afternoon · 14:00 - 16:30
+				164 text Free
+				165 heading National Gallery, Value: 3
+					166 text National Gallery
+				167 text Indoor
+				168 text Masterpieces from Van Gogh, Turner, and Constable. Ideal for photography (no flash) and art history immersion.
+				169 text Art & Culture Photography Matches your interests:  Photography
+				170 text Heavy rain expected; museum is fully sheltered.
+				171 container
+					172 text ◷  Free entry; photography permitted without flash.
+				173 text 15-min tube ride to next activity · estimate Evening · 17:00 - 18:30
+				174 text £38
+				175 heading Afternoon Tea at The Wolseley, Value: 3
+					176 text Afternoon Tea at The Wolseley
+				177 text Indoor
+				178 text Elegant Art Deco setting serving traditional scones, sandwiches, and pastries.
+				179 text Food Photography Matches your interests:  Food + Photography
+				180 text Indoor-only recommendation due to drizzle and high rain probability.
+				181 container
+					182 text ◷  Booking essential; dress code smart casual.
+				183 text 5-min walk to accommodation · estimate
+			184 container
+				185 text 02
+				186 heading Day 2 — Friday, Value: 3
+					187 text Day  2 —  Friday
+				188 text 23 October
+				189 container Weather for 2026-10-23
+					190 text Rain / showers
+					191 text Indoor activities preferred
+					192 container
+						193 text 8.8 – 13.2  °C · Rain chance  100 % · Max wind  38.2  km/h
+					194 text Prefer indoor activities because rain is likely or substantial rain is forecast.
+					195 container
+						196 text Daily planning guidance, not an official weather warning.  Retrieved  21/10/2026, 10:21:26  (UK time). Saved forecast; not refreshed automatically. 
+						197 link Description: Weather data: Open-Meteo, Value: open-meteo.com/
+				198 text Morning · 10:00 - 12:30
+				199 text £32
+				200 heading Tower of London, Value: 3
+					201 text Tower of London
+				202 text Indoor
+				203 text Medieval fortress, Crown Jewels, and Yeoman Warder tours. Rich history and photogenic architecture.
+				204 text History Photography Matches your interests:  History + Photography
+				205 text 100% rain probability; Jewel House and exhibition spaces are fully indoor.
+				206 container
+					207 text ◷  Book timed entry online; allow time for security checks.
+				208 text 10-min walk to next activity · estimate Afternoon · 13:00 - 14:00
+				209 text £16
+				210 heading Lunch at St. Katharine Docks Market, Value: 3
+					211 text Lunch at St. Katharine Docks Market
+				212 text Indoor
+				213 text Covered waterfront food hall with global street food stalls and indoor seating.
+				214 text Food Matches your interests:  Food
+				215 text Persistent rain and high winds; fully sheltered venue.
+				216 container
+					217 text ◷  Indoor seating only; cashless payments accepted.
+				218 text 15-min tube ride to next activity · estimate Afternoon · 14:30 - 16:30
+				219 text Free
+				220 heading Victoria and Albert Museum, Value: 3
+					221 text Victoria and Albert Museum
+				222 text Indoor
+				223 text World’s largest museum of decorative arts and design — stunning interiors and photo-worthy galleries.
+				224 text Art & Culture Photography Matches your interests:  Photography
+				225 text Rain and strong winds forecast; all galleries indoors.
+				226 container
+					227 text ◷  Free entry; photography allowed in most areas.
+				228 text 10-min walk to next activity · estimate Evening · 17:00 - 18:00
+				229 text £32
+				230 heading Dinner at Dishoom Covent Garden, Value: 3
+					231 text Dinner at Dishoom Covent Garden
+				232 text Indoor
+				233 text Popular Bombay-style café with rich decor, cocktails, and sharing plates.
+				234 text Food Photography Matches your interests:  Food + Photography
+				235 text Indoor-only day due to certainty of rain and high wind.
+				236 container
+					237 text ◷  Reservations strongly advised; vegetarian/vegan options available.
+				238 text 0 · estimate
+			239 button Regenerate Plan
+			240 button Trip saved
+			241 container
+				242 heading Budget breakdown, Value: 3
+					243 text Budget breakdown
+				244 text Intercity transport £0 Accommodation £120 Food £104 Activities £64 Local transport £15 Estimated total £303 Your budget £500 Room in your budget £197 Total for all travellers.  1 night, assuming one room per two people. Travel to/from the destination is excluded.
+			245 container
+				246 heading Trip Checks, Value: 3
+					247 text Trip Checks
+				248 text Estimates
+				249 content list
+					250 container
+						251 text ✓ Within your £500 budget
+					252 container
+						253 text ✓ Interest matches highlighted
+					254 container
+						255 text ! Travel times are estimates
+					256 container
+						257 text ! Train and hotel prices may change
+					258 container
+						259 text ! Verify opening hours before travelling
+				260 text Budget comparison only; prices and travel feasibility are not verified.
+			261 container
+				262 heading Planning assumptions, Value: 3
+					263 text Planning assumptions
+				264 text AI-generated estimates; prices, opening hours and travel times are unverified. Travel to/from the destination is excluded because no departure city was provided. Arrive before the first activity. Activity times do not overlap; travel feasibility and opening hours still require checking.
+		105 container
+			106 text TripMind. Thoughtfully planned. Freely explored. MSc IT · Connected prototype
+
+The focused UI element is 1 AXWebArea TripMind · A little less planning. A lot more travelling., URL: 127.0.0.1:5173/

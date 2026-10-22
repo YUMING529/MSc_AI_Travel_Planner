@@ -1,0 +1,217 @@
+{
+  "id": "C01",
+  "weather": "clear",
+  "days": 1,
+  "input": {
+    "destination": "London",
+    "start": "2026-10-24",
+    "end": "2026-10-24",
+    "travellers": 1,
+    "budget": 500,
+    "currency": "GBP",
+    "interests": [
+      "History",
+      "Photography"
+    ],
+    "notes": "Avoid repeated venues. Leave realistic travel gaps. Adapt activities to the supplied weather; do not invent missing forecasts."
+  },
+  "status": 200,
+  "seconds": 19.376,
+  "response": {
+    "trip": {
+      "budget": 500.0,
+      "currency": "GBP",
+      "destination": "London",
+      "end": "2026-10-24",
+      "id": "5f58a8af-0db9-45f5-bac8-a7e8e5be99a7",
+      "interests": [
+        "History",
+        "Photography"
+      ],
+      "itinerary": {
+        "checks": {
+          "activityTimesNonOverlapping": true,
+          "durationDays": 1,
+          "estimatedTravelGapsChecked": true,
+          "factsVerified": false,
+          "namedAttractionsUnique": true,
+          "withinBudget": true
+        },
+        "costs": [
+          {
+            "label": "Intercity transport",
+            "value": 0
+          },
+          {
+            "label": "Accommodation",
+            "value": 0
+          },
+          {
+            "label": "Food",
+            "value": 33
+          },
+          {
+            "label": "Activities",
+            "value": 50
+          },
+          {
+            "label": "Local transport",
+            "value": 0
+          }
+        ],
+        "days": [
+          {
+            "activities": [
+              {
+                "cost": 20,
+                "costCategory": "Activities",
+                "description": "Iconic Baroque cathedral with dome views and historic crypt.",
+                "icon": "museum",
+                "note": "Book timed entry; photography allowed in nave.",
+                "period": "Morning",
+                "places": [
+                  "St Paul's Cathedral"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Photography"
+                ],
+                "time": "09:30 - 11:30",
+                "title": "St Paul's Cathedral",
+                "travel": "5 min to next activity",
+                "travelMinutes": 5,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              },
+              {
+                "cost": 18,
+                "costCategory": "Food",
+                "description": "Vibrant food market with artisanal British produce and street food.",
+                "icon": "food",
+                "indoorAlternative": "The Cheese Room (indoor tasting counter at Borough Market)",
+                "note": "Cash recommended; allow time to explore stalls.",
+                "period": "Afternoon",
+                "places": [
+                  "Borough Market"
+                ],
+                "setting": "mixed",
+                "tags": [
+                  "Food",
+                  "Photography"
+                ],
+                "time": "12:00 - 13:30",
+                "title": "Lunch at Borough Market",
+                "travel": "15 min to next activity",
+                "travelMinutes": 15,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              },
+              {
+                "cost": 30,
+                "costCategory": "Activities",
+                "description": "Medieval fortress, Crown Jewels, and photogenic riverside bridge.",
+                "icon": "museum",
+                "indoorAlternative": "Royal Armouries Museum (within Tower complex)",
+                "note": "Pre-book Crown Jewels slot; photo ops from bridge walkway.",
+                "period": "Afternoon",
+                "places": [
+                  "Tower of London",
+                  "Tower Bridge"
+                ],
+                "setting": "outdoor",
+                "tags": [
+                  "History",
+                  "Photography"
+                ],
+                "time": "14:00 - 16:30",
+                "title": "Tower of London & Tower Bridge Walk",
+                "travel": "10 min to next activity",
+                "travelMinutes": 10,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              },
+              {
+                "cost": 15,
+                "costCategory": "Food",
+                "description": "Riverside street food stalls with Thames views and urban energy.",
+                "icon": "food",
+                "indoorAlternative": "Skylon Restaurant (indoor Southbank dining with river view)",
+                "note": "Outdoor seating; bring light layer for evening breeze.",
+                "period": "Evening",
+                "places": [
+                  "Southbank Centre"
+                ],
+                "setting": "outdoor",
+                "tags": [
+                  "Food",
+                  "Photography"
+                ],
+                "time": "17:00 - 18:30",
+                "title": "Dinner at Southbank Centre Food Market",
+                "travelMinutes": 0,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              }
+            ],
+            "date": "2026-10-24"
+          }
+        ],
+        "mode": "qwen",
+        "model": "qwen-plus",
+        "promptVersion": "qwen-travel-v6",
+        "total": 83,
+        "warnings": [
+          "AI-generated estimates; prices, opening hours and travel times are unverified.",
+          "Travel to/from the destination is excluded because no departure city was provided. Arrive before the first activity.",
+          "Activity times do not overlap; travel feasibility and opening hours still require checking."
+        ],
+        "weather": {
+          "days": [
+            {
+              "date": "2026-10-24",
+              "rainProbability": 10,
+              "reason": "Outdoor activities may suit the forecast; keep an indoor backup.",
+              "recommendation": "outdoor",
+              "status": "available",
+              "summary": "Partly cloudy / overcast",
+              "temperatureMax": 17,
+              "temperatureMin": 9,
+              "weatherCode": 1,
+              "windSpeed": 12
+            }
+          ],
+          "fetchedAt": "2026-10-22T12:00:00+01:00",
+          "source": "Open-Meteo",
+          "sourceUrl": "https://open-meteo.com/",
+          "status": "available",
+          "timezone": "Europe/London"
+        }
+      },
+      "notes": "Avoid repeated venues. Leave realistic travel gaps. Adapt activities to the supplied weather; do not invent missing forecasts.",
+      "start": "2026-10-24",
+      "travellers": 1
+    }
+  },
+  "validationEvents": [],
+  "metrics": {
+    "schema_dates_times": true,
+    "repeated_names": [],
+    "no_detected_repeats": true,
+    "travel_gaps": true,
+    "category_minima": true,
+    "sum_consistent": true,
+    "budget_flag_consistent": true,
+    "over_budget": false,
+    "over_budget_disclosed": true,
+    "weather_snapshot_matches": true,
+    "weather_reason_authoritative": true,
+    "outdoor_backups": true,
+    "allocation_matches": true,
+    "bad_weather_named_activities": 0,
+    "bad_weather_outdoor_or_mixed": [],
+    "estimated_total": 83,
+    "warnings": [
+      "AI-generated estimates; prices, opening hours and travel times are unverified.",
+      "Travel to/from the destination is excluded because no departure city was provided. Arrive before the first activity.",
+      "Activity times do not overlap; travel feasibility and opening hours still require checking."
+    ],
+    "contract_pass": true
+  }
+}

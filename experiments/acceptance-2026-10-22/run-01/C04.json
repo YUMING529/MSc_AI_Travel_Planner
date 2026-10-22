@@ -1,0 +1,1437 @@
+{
+  "id": "C04",
+  "weather": "alternating",
+  "days": 14,
+  "input": {
+    "destination": "London",
+    "start": "2026-10-24",
+    "end": "2026-11-06",
+    "travellers": 2,
+    "budget": 4000,
+    "currency": "GBP",
+    "interests": [
+      "History",
+      "Art & Culture",
+      "Nature",
+      "Photography"
+    ],
+    "notes": "Avoid repeated venues. Leave realistic travel gaps. Adapt activities to the supplied weather; do not invent missing forecasts."
+  },
+  "status": 200,
+  "seconds": 86.628,
+  "response": {
+    "trip": {
+      "budget": 4000.0,
+      "currency": "GBP",
+      "destination": "London",
+      "end": "2026-11-06",
+      "id": "611cbdec-3994-4b2a-8fae-156d09e0287f",
+      "interests": [
+        "History",
+        "Art & Culture",
+        "Nature",
+        "Photography"
+      ],
+      "itinerary": {
+        "checks": {
+          "activityTimesNonOverlapping": true,
+          "durationDays": 14,
+          "estimatedTravelGapsChecked": true,
+          "factsVerified": false,
+          "namedAttractionsUnique": true,
+          "withinBudget": true
+        },
+        "costs": [
+          {
+            "label": "Intercity transport",
+            "value": 0
+          },
+          {
+            "label": "Accommodation",
+            "value": 1580
+          },
+          {
+            "label": "Food",
+            "value": 1140
+          },
+          {
+            "label": "Activities",
+            "value": 266
+          },
+          {
+            "label": "Local transport",
+            "value": 210
+          }
+        ],
+        "days": [
+          {
+            "activities": [
+              {
+                "cost": 12,
+                "costCategory": "Food",
+                "description": "Light breakfast at accommodation before museum visits.",
+                "icon": "food",
+                "note": "Self-catered or café near hotel",
+                "period": "Morning",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "08:00 - 09:00",
+                "title": "Breakfast",
+                "travel": "15 min to next activity",
+                "travelMinutes": 15,
+                "weatherReason": "Prefer indoor activities because rain is likely or substantial rain is forecast."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Explore ancient civilisations, Rosetta Stone and Parthenon sculptures.",
+                "icon": "museum",
+                "note": "Free entry; book timed slot in advance",
+                "period": "Morning",
+                "places": [
+                  "British Museum"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Art & Culture",
+                  "Photography"
+                ],
+                "time": "09:15 - 12:30",
+                "title": "British Museum",
+                "travel": "10 min to next activity",
+                "travelMinutes": 10,
+                "weatherReason": "Prefer indoor activities because rain is likely or substantial rain is forecast."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Masterpieces from Van Gogh to Turner; great for photography and art lovers.",
+                "icon": "museum",
+                "note": "Free entry; photo-friendly galleries",
+                "period": "Afternoon",
+                "places": [
+                  "National Gallery"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "Art & Culture",
+                  "Photography"
+                ],
+                "time": "12:40 - 15:30",
+                "title": "National Gallery",
+                "travelMinutes": 0,
+                "weatherReason": "Prefer indoor activities because rain is likely or substantial rain is forecast."
+              }
+            ],
+            "date": "2026-10-24"
+          },
+          {
+            "activities": [
+              {
+                "cost": 16,
+                "costCategory": "Food",
+                "description": "Café breakfast with local pastries and coffee.",
+                "icon": "food",
+                "note": "Near Regent's Park entrance",
+                "period": "Morning",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "08:00 - 09:00",
+                "title": "Breakfast",
+                "travel": "5 min to next activity",
+                "travelMinutes": 5,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Scenic lakes, rose gardens and open lawns — ideal for nature and photography.",
+                "icon": "nature",
+                "indoorAlternative": "London Zoo (indoor animal houses)",
+                "note": "Free access; check boating hours",
+                "period": "Morning",
+                "places": [
+                  "Regent's Park"
+                ],
+                "setting": "outdoor",
+                "tags": [
+                  "Nature",
+                  "Photography"
+                ],
+                "time": "09:05 - 12:00",
+                "title": "Regent's Park",
+                "travel": "15 min to next activity",
+                "travelMinutes": 15,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              },
+              {
+                "cost": 25,
+                "costCategory": "Food",
+                "description": "Eclectic stalls, street food, vintage finds and vibrant street culture.",
+                "icon": "train",
+                "indoorAlternative": "Camden Lock Indoor Market (covered section)",
+                "note": "Budget for lunch + small purchase",
+                "period": "Afternoon",
+                "places": [
+                  "Camden Market"
+                ],
+                "setting": "outdoor",
+                "tags": [
+                  "Shopping",
+                  "Food",
+                  "Art & Culture"
+                ],
+                "time": "12:15 - 15:30",
+                "title": "Camden Market",
+                "travelMinutes": 0,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              }
+            ],
+            "date": "2026-10-25"
+          },
+          {
+            "activities": [
+              {
+                "cost": 12,
+                "costCategory": "Food",
+                "description": "Hearty breakfast before final museum day.",
+                "icon": "food",
+                "note": "Near South Kensington tube",
+                "period": "Morning",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "08:00 - 09:00",
+                "title": "Breakfast",
+                "travel": "10 min to next activity",
+                "travelMinutes": 10,
+                "weatherReason": "Prefer indoor activities because rain is likely or substantial rain is forecast."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "World’s leading museum of art, design and performance — rich for photography.",
+                "icon": "museum",
+                "note": "Free entry; reserve timed ticket",
+                "period": "Morning",
+                "places": [
+                  "Victoria and Albert Museum"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "Art & Culture",
+                  "Photography",
+                  "History"
+                ],
+                "time": "09:10 - 12:30",
+                "title": "Victoria and Albert Museum",
+                "travel": "5 min to next activity",
+                "travelMinutes": 5,
+                "weatherReason": "Prefer indoor activities because rain is likely or substantial rain is forecast."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Interactive exhibits on space, medicine and computing — great for all ages.",
+                "icon": "museum",
+                "note": "Free entry; IMAX optional extra",
+                "period": "Afternoon",
+                "places": [
+                  "Science Museum"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Art & Culture"
+                ],
+                "time": "12:35 - 15:30",
+                "title": "Science Museum",
+                "travelMinutes": 0,
+                "weatherReason": "Prefer indoor activities because rain is likely or substantial rain is forecast."
+              }
+            ],
+            "date": "2026-10-26"
+          },
+          {
+            "activities": [
+              {
+                "cost": 12,
+                "costCategory": "Food",
+                "description": "Light breakfast with coffee and pastries.",
+                "icon": "food",
+                "note": "Self-serve or café near accommodation.",
+                "period": "Morning",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "08:30 - 09:30",
+                "title": "Breakfast",
+                "travel": "15 min to next activity",
+                "travelMinutes": 15,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Scenic parkland with Royal Observatory views and deer spotting.",
+                "icon": "nature",
+                "indoorAlternative": "National Maritime Museum",
+                "note": "Free entry; check deer safety guidelines.",
+                "period": "Morning",
+                "places": [
+                  "Greenwich Park"
+                ],
+                "setting": "outdoor",
+                "tags": [
+                  "Nature",
+                  "Photography",
+                  "History"
+                ],
+                "time": "10:00 - 12:30",
+                "title": "Greenwich Park",
+                "travel": "5 min to next activity",
+                "travelMinutes": 5,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              },
+              {
+                "cost": 18,
+                "costCategory": "Activities",
+                "description": "Home of the Prime Meridian and historic timekeeping instruments.",
+                "icon": "museum",
+                "indoorAlternative": "Cutty Sark (nearby, indoor ship museum)",
+                "note": "Book timed entry; photo at Meridian Line essential.",
+                "period": "Afternoon",
+                "places": [
+                  "Royal Observatory Greenwich"
+                ],
+                "setting": "mixed",
+                "tags": [
+                  "History",
+                  "Photography"
+                ],
+                "time": "12:35 - 14:30",
+                "title": "Royal Observatory Greenwich",
+                "travel": "15 min to next activity",
+                "travelMinutes": 15,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              },
+              {
+                "cost": 32,
+                "costCategory": "Food",
+                "description": "Riverside pub lunch with Thames views.",
+                "icon": "food",
+                "note": "Budget-friendly option with group seating.",
+                "period": "Afternoon",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "14:45 - 15:45",
+                "title": "Lunch",
+                "travel": "20 min to next activity",
+                "travelMinutes": 20,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              }
+            ],
+            "date": "2026-10-27"
+          },
+          {
+            "activities": [
+              {
+                "cost": 16,
+                "costCategory": "Food",
+                "description": "Hearty cooked breakfast near accommodation.",
+                "icon": "food",
+                "note": "Includes tea/coffee and toast.",
+                "period": "Morning",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "08:45 - 09:45",
+                "title": "Breakfast",
+                "travel": "25 min to next activity",
+                "travelMinutes": 25,
+                "weatherReason": "Prefer indoor activities because rain is likely or substantial rain is forecast."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "British art from 1500s to present, including Turner and Hockney.",
+                "icon": "museum",
+                "note": "Free entry; book free ticket online.",
+                "period": "Morning",
+                "places": [
+                  "Tate Britain"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "Art & Culture",
+                  "Photography"
+                ],
+                "time": "10:15 - 12:45",
+                "title": "Tate Britain",
+                "travel": "15 min to next activity",
+                "travelMinutes": 15,
+                "weatherReason": "Prefer indoor activities because rain is likely or substantial rain is forecast."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Powerful exhibits on conflict, memory and society.",
+                "icon": "museum",
+                "note": "Free entry; allow time for Holocaust Galleries.",
+                "period": "Afternoon",
+                "places": [
+                  "Imperial War Museum"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Art & Culture"
+                ],
+                "time": "13:00 - 15:30",
+                "title": "Imperial War Museum",
+                "travel": "20 min to next activity",
+                "travelMinutes": 20,
+                "weatherReason": "Prefer indoor activities because rain is likely or substantial rain is forecast."
+              },
+              {
+                "cost": 40,
+                "costCategory": "Food",
+                "description": "Comforting British fare in a central location.",
+                "icon": "food",
+                "note": "Pre-booked table for two; includes dessert.",
+                "period": "Afternoon",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "15:50 - 16:50",
+                "title": "Dinner",
+                "travel": "10 min to next activity",
+                "travelMinutes": 10,
+                "weatherReason": "Prefer indoor activities because rain is likely or substantial rain is forecast."
+              }
+            ],
+            "date": "2026-10-28"
+          },
+          {
+            "activities": [
+              {
+                "cost": 10,
+                "costCategory": "Food",
+                "description": "Fresh fruit, yoghurt and granola with coffee.",
+                "icon": "food",
+                "note": "Café near Hampstead Heath entrance.",
+                "period": "Morning",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "08:30 - 09:30",
+                "title": "Breakfast",
+                "travel": "10 min to next activity",
+                "travelMinutes": 10,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Ancient heathland with ponds, woodlands and panoramic London views.",
+                "icon": "nature",
+                "indoorAlternative": "Burgh House (local history museum, nearby)",
+                "note": "Free entry; visit Parliament Hill for skyline photos.",
+                "period": "Morning",
+                "places": [
+                  "Hampstead Heath"
+                ],
+                "setting": "outdoor",
+                "tags": [
+                  "Nature",
+                  "Photography",
+                  "History"
+                ],
+                "time": "09:40 - 12:00",
+                "title": "Hampstead Heath",
+                "travel": "10 min to next activity",
+                "travelMinutes": 10,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Stately home with Rembrandt, Vermeer and landscaped grounds.",
+                "icon": "museum",
+                "indoorAlternative": "Kenwood House interior only (if wet)",
+                "note": "Free entry; house open 11–5; grounds always open.",
+                "period": "Afternoon",
+                "places": [
+                  "Kenwood House"
+                ],
+                "setting": "mixed",
+                "tags": [
+                  "Art & Culture",
+                  "History",
+                  "Photography"
+                ],
+                "time": "12:10 - 14:30",
+                "title": "Kenwood House",
+                "travel": "25 min to next activity",
+                "travelMinutes": 25,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              },
+              {
+                "cost": 44,
+                "costCategory": "Food",
+                "description": "Final meal with seasonal British dishes.",
+                "icon": "food",
+                "note": "Near accommodation; pre-booked.",
+                "period": "Afternoon",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "14:55 - 15:55",
+                "title": "Dinner",
+                "travelMinutes": 0,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              }
+            ],
+            "date": "2026-10-29"
+          },
+          {
+            "activities": [
+              {
+                "cost": 12,
+                "costCategory": "Food",
+                "description": "Light breakfast at accommodation before museum visit.",
+                "icon": "food",
+                "note": "Self-catered or café near hotel",
+                "period": "Morning",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "08:30 - 09:30",
+                "title": "Breakfast",
+                "travel": "15 min to next activity",
+                "travelMinutes": 15,
+                "weatherReason": "Prefer indoor activities because rain is likely or substantial rain is forecast."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Explore dinosaur skeletons, Earth sciences, and Victorian architecture.",
+                "icon": "museum",
+                "note": "Free entry; book timed slot online",
+                "period": "Morning",
+                "places": [
+                  "Natural History Museum"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Nature",
+                  "Photography",
+                  "Art & Culture"
+                ],
+                "time": "10:00 - 12:30",
+                "title": "Natural History Museum",
+                "travel": "25 min to next activity",
+                "travelMinutes": 25,
+                "weatherReason": "Prefer indoor activities because rain is likely or substantial rain is forecast."
+              },
+              {
+                "cost": 24,
+                "costCategory": "Activities",
+                "description": "Guided tour of the iconic concert venue and its history.",
+                "icon": "museum",
+                "note": "Book ahead; photo-friendly interior",
+                "period": "Afternoon",
+                "places": [
+                  "Royal Albert Hall"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Art & Culture",
+                  "Photography"
+                ],
+                "time": "13:15 - 15:45",
+                "title": "Royal Albert Hall",
+                "travelMinutes": 0,
+                "weatherReason": "Prefer indoor activities because rain is likely or substantial rain is forecast."
+              }
+            ],
+            "date": "2026-10-30"
+          },
+          {
+            "activities": [
+              {
+                "cost": 16,
+                "costCategory": "Food",
+                "description": "Café breakfast before Kew Gardens visit.",
+                "icon": "food",
+                "note": "Near Kensington Olympia station",
+                "period": "Morning",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "08:30 - 09:30",
+                "title": "Breakfast",
+                "travel": "35 min to next activity",
+                "travelMinutes": 35,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              },
+              {
+                "cost": 18,
+                "costCategory": "Activities",
+                "description": "Botanical wonderland with glasshouses, treetop walkway, and historic landscapes.",
+                "icon": "nature",
+                "indoorAlternative": "Kew Palace (already scheduled; indoor alternative is Victoria & Albert Museum)",
+                "note": "Pre-book tickets; allow time for Palm House",
+                "period": "Morning",
+                "places": [
+                  "Kew Gardens"
+                ],
+                "setting": "outdoor",
+                "tags": [
+                  "Nature",
+                  "Photography",
+                  "History"
+                ],
+                "time": "10:30 - 13:30",
+                "title": "Kew Gardens",
+                "travel": "15 min to next activity",
+                "travelMinutes": 15,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              },
+              {
+                "cost": 12,
+                "costCategory": "Activities",
+                "description": "Smallest royal palace; explore Georgian interiors and royal gardens.",
+                "icon": "museum",
+                "note": "Included in Kew Gardens ticket or separate entry",
+                "period": "Afternoon",
+                "places": [
+                  "Kew Palace"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Art & Culture"
+                ],
+                "time": "14:00 - 15:30",
+                "title": "Kew Palace",
+                "travelMinutes": 0,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              }
+            ],
+            "date": "2026-10-31"
+          },
+          {
+            "activities": [
+              {
+                "cost": 12,
+                "costCategory": "Food",
+                "description": "Quick breakfast before final museum day.",
+                "icon": "food",
+                "note": "Near Marylebone station",
+                "period": "Morning",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "08:30 - 09:30",
+                "title": "Breakfast",
+                "travel": "20 min to next activity",
+                "travelMinutes": 20,
+                "weatherReason": "Prefer indoor activities because rain is likely or substantial rain is forecast."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "World-class fine and decorative arts in a historic London mansion.",
+                "icon": "museum",
+                "note": "Free entry; highlights include Frans Hals and Titian",
+                "period": "Morning",
+                "places": [
+                  "Wallace Collection"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "Art & Culture",
+                  "History",
+                  "Photography"
+                ],
+                "time": "10:10 - 12:10",
+                "title": "Wallace Collection",
+                "travel": "15 min to next activity",
+                "travelMinutes": 15,
+                "weatherReason": "Prefer indoor activities because rain is likely or substantial rain is forecast."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Eccentric architect’s home, packed with antiquities and light-filled spaces.",
+                "icon": "museum",
+                "note": "Free but timed entry required; book ahead",
+                "period": "Afternoon",
+                "places": [
+                  "Sir John Soane's Museum"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Art & Culture",
+                  "Photography"
+                ],
+                "time": "12:45 - 14:45",
+                "title": "Sir John Soane's Museum",
+                "travelMinutes": 0,
+                "weatherReason": "Prefer indoor activities because rain is likely or substantial rain is forecast."
+              }
+            ],
+            "date": "2026-11-01"
+          },
+          {
+            "activities": [
+              {
+                "cost": 12,
+                "costCategory": "Food",
+                "description": "Light breakfast with coffee and pastries.",
+                "icon": "food",
+                "note": "Self-catered or café option",
+                "period": "Morning",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "08:30 - 09:30",
+                "title": "Breakfast",
+                "travel": "35 min to next activity",
+                "travelMinutes": 35,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Wild deer, ancient trees and open grassland. Ideal for photography and nature walks.",
+                "icon": "nature",
+                "indoorAlternative": "Orleans House Gallery (adjacent, free art & history)",
+                "note": "Free entry; check deer safety guidelines",
+                "period": "Morning",
+                "places": [
+                  "Richmond Park"
+                ],
+                "setting": "outdoor",
+                "tags": [
+                  "Nature",
+                  "Photography"
+                ],
+                "time": "10:05 - 13:05",
+                "title": "Richmond Park",
+                "travel": "25 min to next activity",
+                "travelMinutes": 25,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Riverside meadow with views of St Paul’s skyline — iconic photography spot.",
+                "icon": "camera",
+                "indoorAlternative": "Ham House (NT, 10-min walk; historic interiors & art)",
+                "note": "Public access; no facilities on site",
+                "period": "Afternoon",
+                "places": [
+                  "Petersham Meadows"
+                ],
+                "setting": "outdoor",
+                "tags": [
+                  "Photography",
+                  "Nature"
+                ],
+                "time": "13:30 - 15:30",
+                "title": "Petersham Meadows",
+                "travel": "45 min to next activity",
+                "travelMinutes": 45,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              },
+              {
+                "cost": 45,
+                "costCategory": "Food",
+                "description": "Traditional British dinner with seasonal dishes.",
+                "icon": "food",
+                "note": "Book ahead in Richmond village",
+                "period": "Afternoon",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "16:15 - 18:15",
+                "title": "Dinner",
+                "travelMinutes": 0,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              }
+            ],
+            "date": "2026-11-02"
+          },
+          {
+            "activities": [
+              {
+                "cost": 14,
+                "costCategory": "Food",
+                "description": "Hearty cooked breakfast to prepare for indoor exploration.",
+                "icon": "food",
+                "note": "Café near Museum of London",
+                "period": "Morning",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "08:30 - 09:30",
+                "title": "Breakfast",
+                "travel": "15 min to next activity",
+                "travelMinutes": 15,
+                "weatherReason": "Prefer indoor activities because rain is likely or substantial rain is forecast."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Free museum covering London’s history from Roman times to today.",
+                "icon": "museum",
+                "note": "Free entry; book timed slot online",
+                "period": "Morning",
+                "places": [
+                  "Museum of London"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Art & Culture"
+                ],
+                "time": "10:00 - 13:00",
+                "title": "Museum of London",
+                "travel": "20 min to next activity",
+                "travelMinutes": 20,
+                "weatherReason": "Prefer indoor activities because rain is likely or substantial rain is forecast."
+              },
+              {
+                "cost": 22,
+                "costCategory": "Activities",
+                "description": "Iconic dome, Whispering Gallery and historic crypt. Photography permitted in nave.",
+                "icon": "museum",
+                "note": "Entry fee applies; check opening hours",
+                "period": "Afternoon",
+                "places": [
+                  "St Paul's Cathedral"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Art & Culture",
+                  "Photography"
+                ],
+                "time": "13:20 - 16:20",
+                "title": "St Paul's Cathedral",
+                "travel": "10 min to next activity",
+                "travelMinutes": 10,
+                "weatherReason": "Prefer indoor activities because rain is likely or substantial rain is forecast."
+              },
+              {
+                "cost": 24,
+                "costCategory": "Food",
+                "description": "Quick lunch near St Paul’s with soup, sandwich and drink.",
+                "icon": "food",
+                "note": "Café inside cathedral crypt or nearby",
+                "period": "Afternoon",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "16:30 - 18:00",
+                "title": "Lunch",
+                "travelMinutes": 0,
+                "weatherReason": "Prefer indoor activities because rain is likely or substantial rain is forecast."
+              }
+            ],
+            "date": "2026-11-03"
+          },
+          {
+            "activities": [
+              {
+                "cost": 12,
+                "costCategory": "Food",
+                "description": "Fresh pastries and coffee before park visit.",
+                "icon": "food",
+                "note": "Café near Battersea Park entrance",
+                "period": "Morning",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "08:30 - 09:30",
+                "title": "Breakfast",
+                "travel": "15 min to next activity",
+                "travelMinutes": 15,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "130-acre green space with lake, rose garden and Peace Pagoda.",
+                "icon": "nature",
+                "indoorAlternative": "Battersea Arts Centre (free exhibitions & theatre lobby)",
+                "note": "Free entry; accessible paths",
+                "period": "Morning",
+                "places": [
+                  "Battersea Park"
+                ],
+                "setting": "outdoor",
+                "tags": [
+                  "Nature",
+                  "Photography"
+                ],
+                "time": "10:00 - 12:30",
+                "title": "Battersea Park",
+                "travel": "20 min to next activity",
+                "travelMinutes": 20,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Reimagined landmark with shops, restaurants and turbine hall tours.",
+                "icon": "spark",
+                "indoorAlternative": "Turbine Hall exhibition (indoor, free access)",
+                "note": "Exterior and public areas free; tour optional",
+                "period": "Afternoon",
+                "places": [
+                  "Battersea Power Station"
+                ],
+                "setting": "mixed",
+                "tags": [
+                  "Art & Culture",
+                  "Photography"
+                ],
+                "time": "13:00 - 15:30",
+                "title": "Battersea Power Station",
+                "travel": "10 min to next activity",
+                "travelMinutes": 10,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              },
+              {
+                "cost": 52,
+                "costCategory": "Food",
+                "description": "Contemporary British dinner with riverside views.",
+                "icon": "food",
+                "note": "Book ahead at Power Station restaurant",
+                "period": "Afternoon",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "15:40 - 17:10",
+                "title": "Dinner",
+                "travelMinutes": 0,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              }
+            ],
+            "date": "2026-11-04"
+          },
+          {
+            "activities": [
+              {
+                "cost": 12,
+                "costCategory": "Food",
+                "description": "Light breakfast at accommodation before heading out.",
+                "icon": "food",
+                "note": "Self-catered or included in lodging",
+                "period": "Morning",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "08:30 - 09:30",
+                "title": "Breakfast",
+                "travel": "15 min to next activity",
+                "travelMinutes": 15,
+                "weatherReason": "Prefer indoor activities because rain is likely or substantial rain is forecast."
+              },
+              {
+                "cost": 16,
+                "costCategory": "Activities",
+                "description": "Contemporary design exhibitions, architecture and sustainability themes.",
+                "icon": "museum",
+                "note": "Book timed entry; check for free first-Saturday access",
+                "period": "Morning",
+                "places": [
+                  "Design Museum"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "Art & Culture",
+                  "Photography"
+                ],
+                "time": "10:00 - 12:30",
+                "title": "Design Museum",
+                "travel": "10 min to next activity",
+                "travelMinutes": 10,
+                "weatherReason": "Prefer indoor activities because rain is likely or substantial rain is forecast."
+              },
+              {
+                "cost": 18,
+                "costCategory": "Activities",
+                "description": "Cutting-edge visual art in a Brutalist landmark with rooftop views.",
+                "icon": "museum",
+                "note": "Free for under-18s; check current exhibition pricing",
+                "period": "Afternoon",
+                "places": [
+                  "Hayward Gallery"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "Art & Culture",
+                  "Photography"
+                ],
+                "time": "12:40 - 15:10",
+                "title": "Hayward Gallery",
+                "travelMinutes": 0,
+                "weatherReason": "Prefer indoor activities because rain is likely or substantial rain is forecast."
+              },
+              {
+                "cost": 24,
+                "costCategory": "Food",
+                "description": "Café lunch near Southbank with river views.",
+                "icon": "food",
+                "note": "Café at Hayward Gallery or nearby Southbank Centre",
+                "period": "Afternoon",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "15:10 - 16:10",
+                "title": "Lunch",
+                "travelMinutes": 0,
+                "weatherReason": "Prefer indoor activities because rain is likely or substantial rain is forecast."
+              }
+            ],
+            "date": "2026-11-05"
+          },
+          {
+            "activities": [
+              {
+                "cost": 12,
+                "costCategory": "Food",
+                "description": "Breakfast at accommodation before departure.",
+                "icon": "food",
+                "note": "Self-catered or included in lodging",
+                "period": "Morning",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "08:30 - 09:30",
+                "title": "Breakfast",
+                "travel": "45 min to next activity",
+                "travelMinutes": 45,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Ancient heathland with deer, ponds and woodland walks.",
+                "icon": "nature",
+                "indoorAlternative": "Wimbledon Lawn Tennis Museum",
+                "note": "Free public access; wear sturdy footwear",
+                "period": "Morning",
+                "places": [
+                  "Wimbledon Common"
+                ],
+                "setting": "outdoor",
+                "tags": [
+                  "Nature",
+                  "Photography"
+                ],
+                "time": "10:15 - 12:45",
+                "title": "Wimbledon Common",
+                "travel": "5 min to next activity",
+                "travelMinutes": 5,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              },
+              {
+                "cost": 5,
+                "costCategory": "Activities",
+                "description": "Restored 19th-century windmill with museum and panoramic views.",
+                "icon": "museum",
+                "indoorAlternative": "Wimbledon Village Museum",
+                "note": "Small admission fee; check opening hours",
+                "period": "Afternoon",
+                "places": [
+                  "Wimbledon Windmill"
+                ],
+                "setting": "mixed",
+                "tags": [
+                  "History",
+                  "Photography"
+                ],
+                "time": "12:50 - 14:20",
+                "title": "Wimbledon Windmill",
+                "travel": "20 min to next activity",
+                "travelMinutes": 20,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              },
+              {
+                "cost": 36,
+                "costCategory": "Food",
+                "description": "Pub lunch in Wimbledon Village with local charm.",
+                "icon": "food",
+                "note": "Traditional pub fare; book ahead if busy",
+                "period": "Afternoon",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "14:40 - 15:40",
+                "title": "Lunch",
+                "travel": "30 min to next activity",
+                "travelMinutes": 30,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              },
+              {
+                "cost": 48,
+                "costCategory": "Food",
+                "description": "Early dinner before departure or evening rest.",
+                "icon": "food",
+                "note": "Restaurant near accommodation",
+                "period": "Afternoon",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "16:10 - 17:30",
+                "title": "Dinner",
+                "travelMinutes": 0,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              }
+            ],
+            "date": "2026-11-06"
+          }
+        ],
+        "mode": "qwen",
+        "model": "qwen-plus",
+        "promptVersion": "qwen-travel-v6",
+        "segments": 5,
+        "total": 3196,
+        "venueAllocation": {
+          "2026-10-24": [
+            "British Museum",
+            "National Gallery"
+          ],
+          "2026-10-25": [
+            "Regent's Park",
+            "Camden Market"
+          ],
+          "2026-10-26": [
+            "Victoria and Albert Museum",
+            "Science Museum"
+          ],
+          "2026-10-27": [
+            "Greenwich Park",
+            "Royal Observatory Greenwich"
+          ],
+          "2026-10-28": [
+            "Tate Britain",
+            "Imperial War Museum"
+          ],
+          "2026-10-29": [
+            "Hampstead Heath",
+            "Kenwood House"
+          ],
+          "2026-10-30": [
+            "Natural History Museum",
+            "Royal Albert Hall"
+          ],
+          "2026-10-31": [
+            "Kew Gardens",
+            "Kew Palace"
+          ],
+          "2026-11-01": [
+            "Wallace Collection",
+            "Sir John Soane's Museum"
+          ],
+          "2026-11-02": [
+            "Richmond Park",
+            "Petersham Meadows"
+          ],
+          "2026-11-03": [
+            "Museum of London",
+            "St Paul's Cathedral"
+          ],
+          "2026-11-04": [
+            "Battersea Park",
+            "Battersea Power Station"
+          ],
+          "2026-11-05": [
+            "Design Museum",
+            "Hayward Gallery"
+          ],
+          "2026-11-06": [
+            "Wimbledon Common",
+            "Wimbledon Windmill"
+          ]
+        },
+        "warnings": [
+          "Unsupported activity tags were omitted.",
+          "Food/activity group allowances were increased to cover the listed per-person costs for all travellers; check the revised estimate.",
+          "AI-generated estimates; prices, opening hours and travel times are unverified.",
+          "Travel to/from the destination is excluded because no departure city was provided. Arrive before the first activity.",
+          "Activity times do not overlap; travel feasibility and opening hours still require checking.",
+          "1 unallocated optional stops were omitted. Category allowances remain conservative estimates; travel estimates retain the original route.",
+          "Named-attraction duplicate checks are approximate; aliases, opening hours and actual travel times still need verification."
+        ],
+        "weather": {
+          "days": [
+            {
+              "date": "2026-10-24",
+              "rainProbability": 85,
+              "reason": "Prefer indoor activities because rain is likely or substantial rain is forecast.",
+              "recommendation": "indoor",
+              "status": "available",
+              "summary": "Rain / showers",
+              "temperatureMax": 17,
+              "temperatureMin": 9,
+              "weatherCode": 63,
+              "windSpeed": 18
+            },
+            {
+              "date": "2026-10-25",
+              "rainProbability": 10,
+              "reason": "Outdoor activities may suit the forecast; keep an indoor backup.",
+              "recommendation": "outdoor",
+              "status": "available",
+              "summary": "Partly cloudy / overcast",
+              "temperatureMax": 17,
+              "temperatureMin": 9,
+              "weatherCode": 1,
+              "windSpeed": 12
+            },
+            {
+              "date": "2026-10-26",
+              "rainProbability": 85,
+              "reason": "Prefer indoor activities because rain is likely or substantial rain is forecast.",
+              "recommendation": "indoor",
+              "status": "available",
+              "summary": "Rain / showers",
+              "temperatureMax": 17,
+              "temperatureMin": 9,
+              "weatherCode": 63,
+              "windSpeed": 18
+            },
+            {
+              "date": "2026-10-27",
+              "rainProbability": 10,
+              "reason": "Outdoor activities may suit the forecast; keep an indoor backup.",
+              "recommendation": "outdoor",
+              "status": "available",
+              "summary": "Partly cloudy / overcast",
+              "temperatureMax": 17,
+              "temperatureMin": 9,
+              "weatherCode": 1,
+              "windSpeed": 12
+            },
+            {
+              "date": "2026-10-28",
+              "rainProbability": 85,
+              "reason": "Prefer indoor activities because rain is likely or substantial rain is forecast.",
+              "recommendation": "indoor",
+              "status": "available",
+              "summary": "Rain / showers",
+              "temperatureMax": 17,
+              "temperatureMin": 9,
+              "weatherCode": 63,
+              "windSpeed": 18
+            },
+            {
+              "date": "2026-10-29",
+              "rainProbability": 10,
+              "reason": "Outdoor activities may suit the forecast; keep an indoor backup.",
+              "recommendation": "outdoor",
+              "status": "available",
+              "summary": "Partly cloudy / overcast",
+              "temperatureMax": 17,
+              "temperatureMin": 9,
+              "weatherCode": 1,
+              "windSpeed": 12
+            },
+            {
+              "date": "2026-10-30",
+              "rainProbability": 85,
+              "reason": "Prefer indoor activities because rain is likely or substantial rain is forecast.",
+              "recommendation": "indoor",
+              "status": "available",
+              "summary": "Rain / showers",
+              "temperatureMax": 17,
+              "temperatureMin": 9,
+              "weatherCode": 63,
+              "windSpeed": 18
+            },
+            {
+              "date": "2026-10-31",
+              "rainProbability": 10,
+              "reason": "Outdoor activities may suit the forecast; keep an indoor backup.",
+              "recommendation": "outdoor",
+              "status": "available",
+              "summary": "Partly cloudy / overcast",
+              "temperatureMax": 17,
+              "temperatureMin": 9,
+              "weatherCode": 1,
+              "windSpeed": 12
+            },
+            {
+              "date": "2026-11-01",
+              "rainProbability": 85,
+              "reason": "Prefer indoor activities because rain is likely or substantial rain is forecast.",
+              "recommendation": "indoor",
+              "status": "available",
+              "summary": "Rain / showers",
+              "temperatureMax": 17,
+              "temperatureMin": 9,
+              "weatherCode": 63,
+              "windSpeed": 18
+            },
+            {
+              "date": "2026-11-02",
+              "rainProbability": 10,
+              "reason": "Outdoor activities may suit the forecast; keep an indoor backup.",
+              "recommendation": "outdoor",
+              "status": "available",
+              "summary": "Partly cloudy / overcast",
+              "temperatureMax": 17,
+              "temperatureMin": 9,
+              "weatherCode": 1,
+              "windSpeed": 12
+            },
+            {
+              "date": "2026-11-03",
+              "rainProbability": 85,
+              "reason": "Prefer indoor activities because rain is likely or substantial rain is forecast.",
+              "recommendation": "indoor",
+              "status": "available",
+              "summary": "Rain / showers",
+              "temperatureMax": 17,
+              "temperatureMin": 9,
+              "weatherCode": 63,
+              "windSpeed": 18
+            },
+            {
+              "date": "2026-11-04",
+              "rainProbability": 10,
+              "reason": "Outdoor activities may suit the forecast; keep an indoor backup.",
+              "recommendation": "outdoor",
+              "status": "available",
+              "summary": "Partly cloudy / overcast",
+              "temperatureMax": 17,
+              "temperatureMin": 9,
+              "weatherCode": 1,
+              "windSpeed": 12
+            },
+            {
+              "date": "2026-11-05",
+              "rainProbability": 85,
+              "reason": "Prefer indoor activities because rain is likely or substantial rain is forecast.",
+              "recommendation": "indoor",
+              "status": "available",
+              "summary": "Rain / showers",
+              "temperatureMax": 17,
+              "temperatureMin": 9,
+              "weatherCode": 63,
+              "windSpeed": 18
+            },
+            {
+              "date": "2026-11-06",
+              "rainProbability": 10,
+              "reason": "Outdoor activities may suit the forecast; keep an indoor backup.",
+              "recommendation": "outdoor",
+              "status": "available",
+              "summary": "Partly cloudy / overcast",
+              "temperatureMax": 17,
+              "temperatureMin": 9,
+              "weatherCode": 1,
+              "windSpeed": 12
+            }
+          ],
+          "fetchedAt": "2026-10-22T12:00:00+01:00",
+          "source": "Open-Meteo",
+          "sourceUrl": "https://open-meteo.com/",
+          "status": "available",
+          "timezone": "Europe/London"
+        }
+      },
+      "notes": "Avoid repeated venues. Leave realistic travel gaps. Adapt activities to the supplied weather; do not invent missing forecasts.",
+      "start": "2026-10-24",
+      "travellers": 2
+    }
+  },
+  "validationEvents": [],
+  "metrics": {
+    "schema_dates_times": true,
+    "repeated_names": [],
+    "no_detected_repeats": true,
+    "travel_gaps": true,
+    "category_minima": true,
+    "sum_consistent": true,
+    "budget_flag_consistent": true,
+    "over_budget": false,
+    "over_budget_disclosed": true,
+    "weather_snapshot_matches": true,
+    "weather_reason_authoritative": true,
+    "outdoor_backups": true,
+    "allocation_matches": true,
+    "bad_weather_named_activities": 14,
+    "bad_weather_outdoor_or_mixed": [],
+    "estimated_total": 3196,
+    "warnings": [
+      "Unsupported activity tags were omitted.",
+      "Food/activity group allowances were increased to cover the listed per-person costs for all travellers; check the revised estimate.",
+      "AI-generated estimates; prices, opening hours and travel times are unverified.",
+      "Travel to/from the destination is excluded because no departure city was provided. Arrive before the first activity.",
+      "Activity times do not overlap; travel feasibility and opening hours still require checking.",
+      "1 unallocated optional stops were omitted. Category allowances remain conservative estimates; travel estimates retain the original route.",
+      "Named-attraction duplicate checks are approximate; aliases, opening hours and actual travel times still need verification."
+    ],
+    "contract_pass": true
+  }
+}

@@ -1,0 +1,465 @@
+{
+  "id": "C08",
+  "weather": "partial",
+  "days": 4,
+  "input": {
+    "destination": "York",
+    "start": "2026-11-05",
+    "end": "2026-11-08",
+    "travellers": 1,
+    "budget": 500,
+    "currency": "GBP",
+    "interests": [
+      "History",
+      "Art & Culture"
+    ],
+    "notes": "Avoid repeated venues. Leave realistic travel gaps. Adapt activities to the supplied weather; do not invent missing forecasts."
+  },
+  "status": 200,
+  "seconds": 44.016,
+  "response": {
+    "trip": {
+      "budget": 500.0,
+      "currency": "GBP",
+      "destination": "York",
+      "end": "2026-11-08",
+      "id": "0d2c8dba-8397-461e-9f08-9cf099d9957a",
+      "interests": [
+        "History",
+        "Art & Culture"
+      ],
+      "itinerary": {
+        "checks": {
+          "activityTimesNonOverlapping": true,
+          "durationDays": 4,
+          "estimatedTravelGapsChecked": true,
+          "factsVerified": false,
+          "namedAttractionsUnique": true,
+          "withinBudget": true
+        },
+        "costs": [
+          {
+            "label": "Intercity transport",
+            "value": 0
+          },
+          {
+            "label": "Accommodation",
+            "value": 225
+          },
+          {
+            "label": "Food",
+            "value": 82
+          },
+          {
+            "label": "Activities",
+            "value": 28.5
+          },
+          {
+            "label": "Local transport",
+            "value": 0
+          }
+        ],
+        "days": [
+          {
+            "activities": [
+              {
+                "cost": 8,
+                "costCategory": "Food",
+                "description": "Light breakfast at accommodation before exploring.",
+                "icon": "food",
+                "note": "Self-catered or café near lodging",
+                "period": "Morning",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "08:30 - 09:30",
+                "title": "Breakfast",
+                "travel": "10 min to next activity",
+                "travelMinutes": 10,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Explore the Gothic cathedral, nave, and undercroft.",
+                "icon": "museum",
+                "note": "Free entry; donation suggested. Check opening hours.",
+                "period": "Morning",
+                "places": [
+                  "York Minster"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Art & Culture"
+                ],
+                "time": "09:40 - 12:00",
+                "title": "York Minster",
+                "travel": "5 min to next activity",
+                "travelMinutes": 5,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              },
+              {
+                "cost": 18,
+                "costCategory": "Activities",
+                "description": "Immersive ride through Viking-age York with artefacts.",
+                "icon": "museum",
+                "note": "Book ahead; may close early on weekdays.",
+                "period": "Afternoon",
+                "places": [
+                  "Jorvik Viking Centre"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Art & Culture"
+                ],
+                "time": "12:05 - 14:30",
+                "title": "Jorvik Viking Centre",
+                "travel": "3 min to next activity",
+                "travelMinutes": 3,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              },
+              {
+                "cost": 16,
+                "costCategory": "Food",
+                "description": "Traditional pub lunch near Coppergate.",
+                "icon": "food",
+                "note": "Local fare; no venue name required",
+                "period": "Afternoon",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "14:33 - 15:30",
+                "title": "Lunch",
+                "travel": "12 min to next activity",
+                "travelMinutes": 12,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              }
+            ],
+            "date": "2026-11-05"
+          },
+          {
+            "activities": [
+              {
+                "cost": 10,
+                "costCategory": "Food",
+                "description": "Café breakfast near city centre.",
+                "icon": "food",
+                "note": "Grab-and-go option available",
+                "period": "Morning",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "08:30 - 09:30",
+                "title": "Breakfast",
+                "travel": "10 min to next activity",
+                "travelMinutes": 10,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Roman and medieval collections in historic grounds.",
+                "icon": "museum",
+                "note": "Free entry; check opening times for Tuesday",
+                "period": "Morning",
+                "places": [
+                  "Yorkshire Museum"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Art & Culture"
+                ],
+                "time": "09:40 - 12:00",
+                "title": "Yorkshire Museum",
+                "travel": "8 min to next activity",
+                "travelMinutes": 8,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "World’s largest railway museum with iconic locomotives.",
+                "icon": "museum",
+                "note": "Free entry; allow time for large site",
+                "period": "Afternoon",
+                "places": [
+                  "National Railway Museum"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Art & Culture"
+                ],
+                "time": "12:08 - 14:45",
+                "title": "National Railway Museum",
+                "travel": "10 min to next activity",
+                "travelMinutes": 10,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              },
+              {
+                "cost": 22,
+                "costCategory": "Food",
+                "description": "Evening meal near museum or city centre.",
+                "icon": "food",
+                "note": "Pre-book if preferred",
+                "period": "Afternoon",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "14:55 - 15:50",
+                "title": "Dinner",
+                "travel": "15 min to next activity",
+                "travelMinutes": 15,
+                "weatherReason": "Outdoor activities may suit the forecast; keep an indoor backup."
+              }
+            ],
+            "date": "2026-11-06"
+          },
+          {
+            "activities": [
+              {
+                "cost": 8,
+                "costCategory": "Food",
+                "description": "Final breakfast before departure.",
+                "icon": "food",
+                "note": "Check-out by 10:00 unless extended",
+                "period": "Morning",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "08:30 - 09:30",
+                "title": "Breakfast",
+                "travel": "12 min to next activity",
+                "travelMinutes": 12,
+                "weatherReason": "No forecast for this date. Keep an indoor alternative; check again nearer departure."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Explore York’s history from Civil War to Victorian era.",
+                "icon": "museum",
+                "note": "Free entry; verify Tuesday opening",
+                "period": "Morning",
+                "places": [
+                  "Castle Museum"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Art & Culture"
+                ],
+                "time": "09:42 - 11:45",
+                "title": "Castle Museum",
+                "travel": "10 min to next activity",
+                "travelMinutes": 10,
+                "weatherReason": "No forecast for this date. Keep an indoor alternative; check again nearer departure."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "British art, ceramics, and contemporary exhibitions.",
+                "icon": "museum",
+                "note": "Free entry; temporary exhibits may charge",
+                "period": "Afternoon",
+                "places": [
+                  "York Art Gallery"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "Art & Culture"
+                ],
+                "time": "11:55 - 13:45",
+                "title": "York Art Gallery",
+                "travelMinutes": 0,
+                "weatherReason": "No forecast for this date. Keep an indoor alternative; check again nearer departure."
+              }
+            ],
+            "date": "2026-11-07"
+          },
+          {
+            "activities": [
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Explore atmospheric ruins of a 12th-century Benedictine abbey in York Museum Gardens.",
+                "icon": "museum",
+                "indoorAlternative": "Jorvik Viking Centre",
+                "note": "Free entry; open daily. Check for temporary closures.",
+                "period": "Morning",
+                "places": [
+                  "St Mary's Abbey"
+                ],
+                "setting": "outdoor",
+                "tags": [
+                  "History"
+                ],
+                "time": "09:30 - 11:00",
+                "title": "St Mary's Abbey",
+                "travel": "5 min to next activity",
+                "travelMinutes": 5,
+                "weatherReason": "No forecast for this date. Keep an indoor alternative; check again nearer departure."
+              },
+              {
+                "cost": 10.5,
+                "costCategory": "Activities",
+                "description": "Visit one of Europe’s best-preserved medieval guildhalls, rich in timbered architecture and history.",
+                "icon": "museum",
+                "note": "Book ahead; last entry 15:30. Wheelchair access limited.",
+                "period": "Morning",
+                "places": [
+                  "Merchant Adventurers' Hall"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Art & Culture"
+                ],
+                "time": "11:05 - 12:45",
+                "title": "Merchant Adventurers' Hall",
+                "travel": "10 min to next activity",
+                "travelMinutes": 10,
+                "weatherReason": "No forecast for this date. Keep an indoor alternative; check again nearer departure."
+              },
+              {
+                "cost": 18,
+                "costCategory": "Food",
+                "description": "Traditional York pie and ale at a local pub near the city walls.",
+                "icon": "food",
+                "note": "No venue named; budget-friendly local option.",
+                "period": "Afternoon",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "13:00 - 14:00",
+                "title": "Lunch",
+                "travelMinutes": 0,
+                "weatherReason": "No forecast for this date. Keep an indoor alternative; check again nearer departure."
+              }
+            ],
+            "date": "2026-11-08"
+          }
+        ],
+        "mode": "qwen",
+        "model": "qwen-plus",
+        "promptVersion": "qwen-travel-v6",
+        "segments": 2,
+        "total": 335.5,
+        "venueAllocation": {
+          "2026-11-05": [
+            "York Minster",
+            "Jorvik Viking Centre"
+          ],
+          "2026-11-06": [
+            "Yorkshire Museum",
+            "National Railway Museum"
+          ],
+          "2026-11-07": [
+            "Castle Museum",
+            "York Art Gallery"
+          ],
+          "2026-11-08": [
+            "St Mary's Abbey",
+            "Merchant Adventurers' Hall"
+          ]
+        },
+        "warnings": [
+          "AI-generated estimates; prices, opening hours and travel times are unverified.",
+          "Travel to/from the destination is excluded because no departure city was provided. Arrive before the first activity.",
+          "Activity times do not overlap; travel feasibility and opening hours still require checking.",
+          "1 unallocated optional stops were omitted. Category allowances remain conservative estimates; travel estimates retain the original route.",
+          "Named-attraction duplicate checks are approximate; aliases, opening hours and actual travel times still need verification."
+        ],
+        "weather": {
+          "days": [
+            {
+              "date": "2026-11-05",
+              "rainProbability": 10,
+              "reason": "Outdoor activities may suit the forecast; keep an indoor backup.",
+              "recommendation": "outdoor",
+              "status": "available",
+              "summary": "Partly cloudy / overcast",
+              "temperatureMax": 17,
+              "temperatureMin": 9,
+              "weatherCode": 1,
+              "windSpeed": 12
+            },
+            {
+              "date": "2026-11-06",
+              "rainProbability": 10,
+              "reason": "Outdoor activities may suit the forecast; keep an indoor backup.",
+              "recommendation": "outdoor",
+              "status": "available",
+              "summary": "Partly cloudy / overcast",
+              "temperatureMax": 17,
+              "temperatureMin": 9,
+              "weatherCode": 1,
+              "windSpeed": 12
+            },
+            {
+              "date": "2026-11-07",
+              "reason": "No forecast for this date. Keep an indoor alternative; check again nearer departure.",
+              "recommendation": "unknown",
+              "status": "out_of_range"
+            },
+            {
+              "date": "2026-11-08",
+              "reason": "No forecast for this date. Keep an indoor alternative; check again nearer departure.",
+              "recommendation": "unknown",
+              "status": "out_of_range"
+            }
+          ],
+          "fetchedAt": "2026-10-22T12:00:00+01:00",
+          "source": "Open-Meteo",
+          "sourceUrl": "https://open-meteo.com/",
+          "status": "partial",
+          "timezone": "Europe/London"
+        }
+      },
+      "notes": "Avoid repeated venues. Leave realistic travel gaps. Adapt activities to the supplied weather; do not invent missing forecasts.",
+      "start": "2026-11-05",
+      "travellers": 1
+    }
+  },
+  "validationEvents": [],
+  "metrics": {
+    "schema_dates_times": true,
+    "repeated_names": [],
+    "no_detected_repeats": true,
+    "travel_gaps": true,
+    "category_minima": true,
+    "sum_consistent": true,
+    "budget_flag_consistent": true,
+    "over_budget": false,
+    "over_budget_disclosed": true,
+    "weather_snapshot_matches": true,
+    "weather_reason_authoritative": true,
+    "outdoor_backups": true,
+    "allocation_matches": true,
+    "bad_weather_named_activities": 0,
+    "bad_weather_outdoor_or_mixed": [],
+    "estimated_total": 335.5,
+    "warnings": [
+      "AI-generated estimates; prices, opening hours and travel times are unverified.",
+      "Travel to/from the destination is excluded because no departure city was provided. Arrive before the first activity.",
+      "Activity times do not overlap; travel feasibility and opening hours still require checking.",
+      "1 unallocated optional stops were omitted. Category allowances remain conservative estimates; travel estimates retain the original route.",
+      "Named-attraction duplicate checks are approximate; aliases, opening hours and actual travel times still need verification."
+    ],
+    "contract_pass": true
+  }
+}

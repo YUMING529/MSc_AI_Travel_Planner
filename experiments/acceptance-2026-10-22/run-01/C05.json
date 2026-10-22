@@ -1,0 +1,212 @@
+{
+  "id": "C05",
+  "weather": "wind",
+  "days": 1,
+  "input": {
+    "destination": "Cardiff",
+    "start": "2026-10-24",
+    "end": "2026-10-24",
+    "travellers": 50,
+    "budget": 1,
+    "currency": "GBP",
+    "interests": [
+      "Nature",
+      "History"
+    ],
+    "notes": "Avoid repeated venues. Leave realistic travel gaps. Adapt activities to the supplied weather; do not invent missing forecasts."
+  },
+  "status": 200,
+  "seconds": 17.678,
+  "response": {
+    "trip": {
+      "budget": 1.0,
+      "currency": "GBP",
+      "destination": "Cardiff",
+      "end": "2026-10-24",
+      "id": "86b2671b-58df-4fce-acd5-dbc258aead64",
+      "interests": [
+        "Nature",
+        "History"
+      ],
+      "itinerary": {
+        "checks": {
+          "activityTimesNonOverlapping": true,
+          "durationDays": 1,
+          "estimatedTravelGapsChecked": true,
+          "factsVerified": false,
+          "namedAttractionsUnique": true,
+          "withinBudget": false
+        },
+        "costs": [
+          {
+            "label": "Intercity transport",
+            "value": 0
+          },
+          {
+            "label": "Accommodation",
+            "value": 0
+          },
+          {
+            "label": "Food",
+            "value": 1500
+          },
+          {
+            "label": "Activities",
+            "value": 0
+          },
+          {
+            "label": "Local transport",
+            "value": 75
+          }
+        ],
+        "days": [
+          {
+            "activities": [
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Explore Welsh art, natural history and geology exhibits.",
+                "icon": "museum",
+                "note": "Free entry; check opening hours before visiting.",
+                "period": "Morning",
+                "places": [
+                  "National Museum Cardiff"
+                ],
+                "setting": "indoor",
+                "tags": [
+                  "History",
+                  "Art & Culture"
+                ],
+                "time": "10:00 - 12:00",
+                "title": "National Museum Cardiff",
+                "travel": "5 min to next activity",
+                "travelMinutes": 5,
+                "weatherReason": "Prefer indoor activities; storm, freezing precipitation, snow or strong wind is forecast. Check official warnings."
+              },
+              {
+                "cost": 12,
+                "costCategory": "Food",
+                "description": "Café inside the museum with Welsh-inspired dishes.",
+                "icon": "food",
+                "note": "Budget meal option; pre-book if busy.",
+                "period": "Afternoon",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "12:05 - 13:05",
+                "title": "Lunch",
+                "travel": "10 min to next activity",
+                "travelMinutes": 10,
+                "weatherReason": "Prefer indoor activities; storm, freezing precipitation, snow or strong wind is forecast. Check official warnings."
+              },
+              {
+                "cost": 0,
+                "costCategory": "Activities",
+                "description": "Open-air museum with historic buildings and gardens.",
+                "icon": "museum",
+                "indoorAlternative": "Explore on-site indoor galleries and period houses.",
+                "note": "Free entry; some indoor galleries available.",
+                "period": "Afternoon",
+                "places": [
+                  "St Fagans National Museum of History"
+                ],
+                "setting": "mixed",
+                "tags": [
+                  "History",
+                  "Nature"
+                ],
+                "time": "13:15 - 15:15",
+                "title": "St Fagans National Museum of History",
+                "travel": "15 min to next activity",
+                "travelMinutes": 15,
+                "weatherReason": "Prefer indoor activities; storm, freezing precipitation, snow or strong wind is forecast. Check official warnings."
+              },
+              {
+                "cost": 18,
+                "costCategory": "Food",
+                "description": "Local pub fare near St Fagans entrance.",
+                "icon": "food",
+                "note": "Group-friendly; book ahead for 50 people.",
+                "period": "Afternoon",
+                "places": [],
+                "setting": "indoor",
+                "tags": [
+                  "Food"
+                ],
+                "time": "15:30 - 16:30",
+                "title": "Dinner",
+                "travelMinutes": 0,
+                "weatherReason": "Prefer indoor activities; storm, freezing precipitation, snow or strong wind is forecast. Check official warnings."
+              }
+            ],
+            "date": "2026-10-24"
+          }
+        ],
+        "mode": "qwen",
+        "model": "qwen-plus",
+        "promptVersion": "qwen-travel-v6",
+        "total": 1575,
+        "warnings": [
+          "AI-generated estimates; prices, opening hours and travel times are unverified.",
+          "Travel to/from the destination is excluded because no departure city was provided. Arrive before the first activity.",
+          "Activity times do not overlap; travel feasibility and opening hours still require checking.",
+          "The estimated group total exceeds your budget; this plan has not been optimized to fit it."
+        ],
+        "weather": {
+          "days": [
+            {
+              "date": "2026-10-24",
+              "rainProbability": 5,
+              "reason": "Prefer indoor activities; storm, freezing precipitation, snow or strong wind is forecast. Check official warnings.",
+              "recommendation": "indoor",
+              "status": "available",
+              "summary": "Clear sky",
+              "temperatureMax": 17,
+              "temperatureMin": 9,
+              "weatherCode": 0,
+              "windSpeed": 48
+            }
+          ],
+          "fetchedAt": "2026-10-22T12:00:00+01:00",
+          "source": "Open-Meteo",
+          "sourceUrl": "https://open-meteo.com/",
+          "status": "available",
+          "timezone": "Europe/London"
+        }
+      },
+      "notes": "Avoid repeated venues. Leave realistic travel gaps. Adapt activities to the supplied weather; do not invent missing forecasts.",
+      "start": "2026-10-24",
+      "travellers": 50
+    }
+  },
+  "validationEvents": [],
+  "metrics": {
+    "schema_dates_times": true,
+    "repeated_names": [],
+    "no_detected_repeats": true,
+    "travel_gaps": true,
+    "category_minima": true,
+    "sum_consistent": true,
+    "budget_flag_consistent": true,
+    "over_budget": true,
+    "over_budget_disclosed": true,
+    "weather_snapshot_matches": true,
+    "weather_reason_authoritative": true,
+    "outdoor_backups": true,
+    "allocation_matches": true,
+    "bad_weather_named_activities": 2,
+    "bad_weather_outdoor_or_mixed": [
+      "St Fagans National Museum of History"
+    ],
+    "estimated_total": 1575,
+    "warnings": [
+      "AI-generated estimates; prices, opening hours and travel times are unverified.",
+      "Travel to/from the destination is excluded because no departure city was provided. Arrive before the first activity.",
+      "Activity times do not overlap; travel feasibility and opening hours still require checking.",
+      "The estimated group total exceeds your budget; this plan has not been optimized to fit it."
+    ],
+    "contract_pass": true
+  }
+}

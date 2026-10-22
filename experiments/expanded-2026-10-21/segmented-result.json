@@ -1,0 +1,23 @@
+{
+  "input": {
+    "destination": "London",
+    "start": "2026-10-13",
+    "end": "2026-10-24",
+    "travellers": 3,
+    "budget": 1500,
+    "currency": "GBP",
+    "interests": [
+      "Art & Culture",
+      "Nightlife"
+    ],
+    "notes": "A relaxed pace. Include meals each day."
+  },
+  "status": 502,
+  "elapsedSeconds": 136.8,
+  "response": {
+    "error": {
+      "code": "invalid_model_output",
+      "message": "Qwen could not produce a complete, consistent plan after one repair attempt. Please try again or shorten the trip."
+    }
+  }
+}

@@ -1,0 +1,264 @@
+[
+  {
+    "input": {
+      "destination": "Manchester",
+      "start": "2026-11-02",
+      "end": "2026-11-04",
+      "travellers": 6,
+      "budget": 2500
+    },
+    "status": 200,
+    "elapsedSeconds": 70.2,
+    "response": {
+      "trip": {
+        "budget": 2500.0,
+        "currency": "GBP",
+        "destination": "Manchester",
+        "end": "2026-11-04",
+        "id": "6f93cef7-028d-422d-afcc-2eb660353730",
+        "interests": [
+          "Art & Culture",
+          "Nightlife"
+        ],
+        "itinerary": {
+          "checks": {
+            "activityTimesNonOverlapping": true,
+            "durationDays": 3,
+            "factsVerified": false,
+            "withinBudget": true
+          },
+          "costs": [
+            {
+              "label": "Intercity transport",
+              "value": 0
+            },
+            {
+              "label": "Accommodation",
+              "value": 600
+            },
+            {
+              "label": "Food",
+              "value": 594
+            },
+            {
+              "label": "Activities",
+              "value": 534
+            },
+            {
+              "label": "Local transport",
+              "value": 42
+            }
+          ],
+          "days": [
+            {
+              "activities": [
+                {
+                  "cost": 0,
+                  "description": "Free entry to major collection of British art, Pre-Raphaelites, and contemporary works. Wheelchair accessible.",
+                  "icon": "museum",
+                  "note": "Check opening hours; free but donations welcome",
+                  "period": "Morning",
+                  "tags": [
+                    "Art & Culture"
+                  ],
+                  "time": "10:30 - 12:30",
+                  "title": "Manchester Art Gallery",
+                  "travel": "10-min walk"
+                },
+                {
+                  "cost": 28,
+                  "description": "Stylish brasserie in a historic building with seasonal British dishes and craft cocktails.",
+                  "icon": "food",
+                  "note": "Book ahead; group-friendly seating",
+                  "period": "Afternoon",
+                  "tags": [
+                    "Food",
+                    "Art & Culture"
+                  ],
+                  "time": "13:00 - 14:30",
+                  "title": "Lunch at The Refuge by Volta",
+                  "travel": "5-min walk"
+                },
+                {
+                  "cost": 0,
+                  "description": "Self-guided tour of murals and graffiti in Manchester\u2019s creative hub \u2014 including works by Akse and Pure Evil.",
+                  "icon": "camera",
+                  "note": "Free; best light late afternoon",
+                  "period": "Afternoon",
+                  "tags": [
+                    "Art & Culture",
+                    "Photography"
+                  ],
+                  "time": "15:30 - 17:30",
+                  "title": "Northern Quarter Street Art Walk",
+                  "travel": "15-min walk to next venue"
+                },
+                {
+                  "cost": 18,
+                  "description": "Iconic multi-room venue with live music, DJs, and club nights \u2014 strong indie/electronic focus.",
+                  "icon": "spark",
+                  "note": "Entry fee per person; check event schedule in advance",
+                  "period": "Evening",
+                  "tags": [
+                    "Nightlife"
+                  ],
+                  "time": "19:00 - 23:00",
+                  "title": "Nightlife at YES"
+                }
+              ],
+              "date": "2026-11-02"
+            },
+            {
+              "activities": [
+                {
+                  "cost": 0,
+                  "description": "Explore Manchester\u2019s industrial legacy, textile machinery, and early computing exhibits.",
+                  "icon": "museum",
+                  "note": "Free entry; timed slots may apply",
+                  "period": "Morning",
+                  "tags": [
+                    "History",
+                    "Art & Culture"
+                  ],
+                  "time": "11:00 - 13:00",
+                  "title": "Science and Industry Museum",
+                  "travel": "15-min tram ride"
+                },
+                {
+                  "cost": 22,
+                  "description": "Converted market hall with diverse street-food vendors \u2014 vegan, grill, Asian, and dessert options.",
+                  "icon": "food",
+                  "note": "Pay per vendor; group seating available",
+                  "period": "Afternoon",
+                  "tags": [
+                    "Food"
+                  ],
+                  "time": "13:30 - 15:00",
+                  "title": "Lunch at Mackie Mayor Food Hall",
+                  "travel": "10-min walk"
+                },
+                {
+                  "cost": 0,
+                  "description": "Modern and historic art in a parkland setting; includes sculpture trail and textile archives.",
+                  "icon": "nature",
+                  "note": "Free entry; gallery open Wed\u2013Sun; park always open",
+                  "period": "Afternoon",
+                  "tags": [
+                    "Art & Culture",
+                    "Nature"
+                  ],
+                  "time": "16:00 - 18:00",
+                  "title": "Whitworth Art Gallery & Park",
+                  "travel": "20-min tram ride"
+                },
+                {
+                  "cost": 25,
+                  "description": "Legendary intimate venue hosting jazz, world, and alternative acts \u2014 great acoustics and vibe.",
+                  "icon": "spark",
+                  "note": "Ticket price varies; \u00a325 avg incl. booking fee",
+                  "period": "Evening",
+                  "tags": [
+                    "Nightlife",
+                    "Art & Culture"
+                  ],
+                  "time": "20:00 - 23:30",
+                  "title": "Live Music at Band on the Wall"
+                }
+              ],
+              "date": "2026-11-03"
+            },
+            {
+              "activities": [
+                {
+                  "cost": 0,
+                  "description": "Gothic masterpiece housing rare manuscripts and quiet reading rooms \u2014 architectural and literary gem.",
+                  "icon": "museum",
+                  "note": "Free entry; photography allowed in public areas",
+                  "period": "Morning",
+                  "tags": [
+                    "History",
+                    "Art & Culture"
+                  ],
+                  "time": "10:00 - 11:30",
+                  "title": "John Rylands Library",
+                  "travel": "5-min walk"
+                },
+                {
+                  "cost": 24,
+                  "description": "Award-winning ramen and bao \u2014 rich broths, house-made noodles, and vibrant atmosphere.",
+                  "icon": "food",
+                  "note": "Reservations recommended for groups",
+                  "period": "Afternoon",
+                  "tags": [
+                    "Food"
+                  ],
+                  "time": "12:00 - 13:30",
+                  "title": "Brunch at Tampopo Ramen (Spinningfields)",
+                  "travel": "10-min walk"
+                },
+                {
+                  "cost": 0,
+                  "description": "Roman fort ruins, canals, and industrial archaeology \u2014 peaceful riverside stroll with photo ops.",
+                  "icon": "nature",
+                  "note": "Free access; ideal for relaxed pace",
+                  "period": "Afternoon",
+                  "tags": [
+                    "History",
+                    "Nature",
+                    "Photography"
+                  ],
+                  "time": "14:30 - 16:30",
+                  "title": "Castlefield Urban Heritage Park",
+                  "travel": "15-min walk"
+                },
+                {
+                  "cost": 22,
+                  "description": "Hidden cocktail bar beneath a laundrette \u2014 inventive drinks and playful theme.",
+                  "icon": "spark",
+                  "note": "Cocktail menu changes seasonally; group booking advised",
+                  "period": "Evening",
+                  "tags": [
+                    "Nightlife",
+                    "Food"
+                  ],
+                  "time": "17:30 - 19:00",
+                  "title": "Farewell Drinks at The Washhouse"
+                }
+              ],
+              "date": "2026-11-04"
+            }
+          ],
+          "mode": "qwen",
+          "model": "qwen-plus",
+          "promptVersion": "qwen-travel-v2",
+          "total": 1770,
+          "warnings": [
+            "AI-generated estimates; prices, opening hours and travel times are unverified.",
+            "Travel to/from the destination is excluded because no departure city was provided. Arrive before the first activity.",
+            "Activity times do not overlap; travel feasibility and opening hours still require checking."
+          ]
+        },
+        "notes": "A relaxed pace. Include meals each day.",
+        "start": "2026-11-02",
+        "travellers": 6
+      }
+    }
+  },
+  {
+    "input": {
+      "destination": "London",
+      "start": "2026-10-13",
+      "end": "2026-10-24",
+      "travellers": 3,
+      "budget": 1500
+    },
+    "status": 504,
+    "elapsedSeconds": 120.1,
+    "response": {
+      "error": {
+        "code": "provider_timeout",
+        "message": "Qwen timed out. Please try again."
+      }
+    }
+  }
+]

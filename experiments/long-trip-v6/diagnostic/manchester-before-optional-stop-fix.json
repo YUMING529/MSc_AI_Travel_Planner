@@ -1,0 +1,38 @@
+{
+  "input": {
+    "destination": "Manchester",
+    "start": "2026-11-10",
+    "end": "2026-11-16",
+    "travellers": 3,
+    "budget": 2200,
+    "currency": "GBP",
+    "interests": [
+      "History",
+      "Food",
+      "Nature"
+    ],
+    "notes": "Relaxed pace, no repeated attractions."
+  },
+  "status": 502,
+  "seconds": 50.0,
+  "segments": [
+    {
+      "start": "2026-11-13",
+      "seconds": 39.7,
+      "excludedVenues": 0
+    },
+    {
+      "start": "2026-11-10",
+      "seconds": 45.5,
+      "excludedVenues": 0
+    }
+  ],
+  "response": {
+    "error": {
+      "code": "invalid_model_output",
+      "message": "Qwen could not produce a complete, consistent plan after one repair attempt. Please try again or shorten the trip."
+    }
+  },
+  "duplicates": null,
+  "travelGapsChecked": null
+}

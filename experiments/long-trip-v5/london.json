@@ -1,0 +1,44 @@
+{
+  "input": {
+    "destination": "London",
+    "start": "2026-11-10",
+    "end": "2026-11-23",
+    "travellers": 2,
+    "budget": 4000,
+    "currency": "GBP",
+    "interests": [
+      "History",
+      "Art & Culture",
+      "Nature",
+      "Photography"
+    ],
+    "notes": "Varied trip. Do not revisit venues, including different parts of the same venue."
+  },
+  "status": 502,
+  "seconds": 324.3,
+  "segments": [
+    {
+      "start": "2026-11-10",
+      "seconds": 82.8,
+      "excludedVenues": 0
+    },
+    {
+      "start": "2026-11-13",
+      "seconds": 47.9,
+      "excludedVenues": 9
+    },
+    {
+      "start": "2026-11-16",
+      "seconds": 97.5,
+      "excludedVenues": 21
+    }
+  ],
+  "response": {
+    "error": {
+      "code": "invalid_model_output",
+      "message": "Qwen could not produce a complete, consistent plan after one repair attempt. Please try again or shorten the trip."
+    }
+  },
+  "duplicates": null,
+  "travelGapsChecked": null
+}

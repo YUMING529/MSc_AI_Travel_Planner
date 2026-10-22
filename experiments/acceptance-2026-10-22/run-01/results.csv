@@ -1,0 +1,9 @@
+id,city,days,travellers,budget,weather_fixture,http,seconds,contract_pass,estimated_total,over_budget,bad_weather_outdoor_or_mixed_count
+C01,London,1,1,500,clear,200,19.376,True,83,False,0
+C02,Edinburgh,2,2,600,rain,200,31.112,True,422,False,1
+C03,Manchester,7,3,2200,mixed,200,53.725,True,1389,False,0
+C04,London,14,2,4000,alternating,200,86.628,True,3196,False,0
+C05,Cardiff,1,50,1,wind,200,17.678,True,1575,True,1
+C06,Belfast,3,8,100000,outage,200,41.926,True,2192,False,0
+C07,Bath,2,4,800,out_of_range,200,33.354,True,622.0,False,0
+C08,York,4,1,500,partial,200,44.016,True,335.5,False,0
