@@ -1,83 +1,81 @@
 # MSc AI Travel Planner
 
-开始新任务前，请先阅读 [PROJECT_CONTEXT.md](PROJECT_CONTEXT.md)，了解项目范围、MVP、MoSCoW 需求、原型限制与开发约定。
+**English** | [简体中文](README.zh-CN.md)
 
-## 项目简介
+Before starting development, read [PROJECT_CONTEXT.md](PROJECT_CONTEXT.md) (Chinese) for the project scope, MVP, MoSCoW requirements, prototype limitations and development conventions.
 
-本项目是 MSc IT 学位项目，计划构建一个 AI 辅助旅行规划应用，通过 React 界面收集旅行需求，由 Python/Flask 后端调用 LLM API，并在校验和结构化处理后展示规划结果。
+## Overview
 
-## 项目目标
+TripMind is an AI-assisted travel planning prototype developed as an MSc IT project. A React interface collects travel preferences, and a Python/Flask backend calls an LLM API, validates and normalises its output, and returns a structured itinerary.
 
-探索大语言模型在旅行规划场景中的应用，逐步完成从用户输入、行程生成、输出校验到结果展示的完整流程，并通过实验记录支持项目评估与论文写作。
+## Project aim
 
-## 当前架构与计划
+Explore the use of large language models in travel planning through a complete workflow from user input and itinerary generation to output validation and presentation. Experiment records support project evaluation and dissertation writing.
 
-截至 2026-10-21，已接入 Qwen 与 Open-Meteo 天气，支持英国 17 城、1–14 天、1–50 人，以及浏览器保存。
+## Current implementation and architecture
+
+As of 21 October 2026, the application integrates Qwen and Open-Meteo weather forecasts, supports 17 UK cities, trips of 1–14 days and groups of 1–50 travellers, and saves trips in the browser.
 
 ```text
-React → Flask 输入校验 → 天气预报 → Qwen 分段生成
-      → 全局分配景点、并行补充详情 → 结构/费用/时间间隔/去重校验 → 结果与保存
+React → Flask input validation → Weather forecast → Qwen itinerary generation
+      → Global venue allocation and parallel expansion for longer trips
+      → Structure / cost / travel-gap / duplicate checks → Display and save
 ```
 
-本轮回归：44 项后端测试、3 项前端测试及生产构建通过；检查 360/390/768/1440 四种宽度。2026-10-22 实测 London 14 天约 99 秒、Manchester 7 天约 51 秒，均未检测到重复地点（少量案例，不代表稳定成功率）。长行程仍是 AI 估算，名称去重不能替代景点事实和实际路线核验。
+Regression evidence includes 44 passing backend tests, 3 passing frontend tests and a successful production build, plus layout checks at widths of 360, 390, 768 and 1440 pixels. Separate live checks on 22 October 2026 generated a 14-day London trip in approximately 99 seconds and a 7-day Manchester trip in approximately 51 seconds, with no duplicate venues detected. These are small samples, not reliability estimates. Generated plans remain AI estimates; name-based duplicate checks do not verify venue facts or real routes.
 
-**启动和交付请看 [Delivery](docs/Delivery.md)，测试证据见 [Testing](docs/Testing-2026-10-21.md)。** 本机可双击 Start-TripMind.command，或运行 `.venv/bin/python scripts/start.py --preview`。
+See [Delivery](docs/Delivery.md) for installation and launch instructions and [Testing](docs/Testing-2026-10-21.md) for evidence (both in Chinese). Once dependencies and the frontend build are ready, launch with `.venv/bin/python scripts/start.py --preview`, or double-click `Start-TripMind.command` on macOS.
 
-配置步骤见 [backend/README.md](backend/README.md)，模板为 `backend/.env.example`。本机 `backend/.env` 已由用户配置并验证；更改配置后需重启后端。不要将密钥放入前端或聊天。
+Configuration is documented in [backend/README.md](backend/README.md) (English). After cloning, copy `backend/.env.example` to `backend/.env` if it does not exist, and configure it locally. The repository does not include credentials. Restart the backend after configuration changes. Never upload API keys.
 
-## 固定案例验收
+## Fixed-case acceptance evaluation
 
-2026-10-22：8 个有效案例全部生成成功，8 个非法输入正确拒绝；平均 41 秒，14 天案例 87 秒。天气条件使用固定样本、模型真实调用，仍有天气安排及保守估价复核项。完整定义、逐例结果与局限见 [验收报告](docs/Acceptance-2026-10-22.md)。小样本结果不代表生产成功率。
+On 22 October 2026, all 8 valid cases generated successfully, and all 8 invalid inputs were correctly rejected. Mean generation time was approximately 41 seconds; the 14-day case took approximately 87 seconds. Tests used real Qwen calls with fixed weather samples. Weather suitability and conservative cost estimates still require review in some cases. See the [acceptance report](docs/Acceptance-2026-10-22.md) (Chinese) for definitions, individual results and limitations. This small sample does not establish a production success rate.
 
-## 当前进度
+## Project materials and progress
 
-目前已归档的项目材料包括：
+Available materials include:
 
-- 项目范围文档：`docs/Project_Scope_Document.pdf`
-- 背景调研文档：`docs/Background_Survey.pdf`
-- LLM 基线实验文档：`docs/LLM_Baseline_Experiment.pdf`
-- 技术选型：`docs/Technology_Selection.pdf`（已区分当前实现与计划）
-- 架构图：`docs/diagrams/`（已标注已实现及未实现组件）
-- 当前运行截图：`frontend/previews/current-2026-10-16/`；旧截图仅作历史参考
-- 本次一致性检查：[Progress Audit](docs/Progress_Audit_2026-10-16.md)
-- AI 使用记录：[AI Usage Log](docs/AI_Usage_Log.md)（仅记录开发中的重要 AI 使用及人工审阅）
-- About、Home、MyTrips 三张界面原型截图：`docs/screenshots/`
+- Project scope: `docs/Project_Scope_Document.pdf`.
+- Background survey: `docs/Background_Survey.pdf`.
+- LLM baseline experiment: `docs/LLM_Baseline_Experiment.pdf`.
+- Technology selection: `docs/Technology_Selection.pdf`, distinguishing implemented and planned features.
+- Architecture diagrams: `docs/diagrams/`, identifying implemented and planned components.
+- Earlier connected-prototype screenshots: `frontend/previews/current-2026-10-16/`; older screenshots are historical references.
+- [Progress audit](docs/Progress_Audit_2026-10-16.md).
+- [AI usage log](docs/AI_Usage_Log.md), recording significant development assistance and human review status.
+- Early About, Home and My Trips UI prototypes: `docs/screenshots/`.
 
-另已将 `tripmind` React + Vite 原型完整复制到 `frontend/`，包含源码、模拟数据、预览截图、依赖锁定文件及原项目说明。原项目保留不变。原始实验记录、独立数据集、会议记录和论文草稿后续再补充；Qwen 成功请求可选择自动记录到 experiments/runs/。基线实验 PDF 统一保留在文档目录，后续实验输入、模型输出及评估记录放入 `experiments/`。
+The original React + Vite prototype was copied into `frontend/`, including source, sample data, preview images and the dependency lockfile. Experiment and acceptance evidence is stored in `experiments/`. An independent dataset, meeting records and dissertation drafts remain to be added. Successful Qwen requests can optionally be recorded in `experiments/runs/`; these local logs are excluded from version control. Baseline PDF reports remain under `docs/`.
 
-## 文件夹结构
+## Repository structure
 
 ```text
 MSc_AI_Travel_Planner/
-├── README.md
-├── PROJECT_CONTEXT.md
-├── docs/
-│   ├── Project_Scope_Document.pdf
-│   ├── Background_Survey.pdf
-│   ├── LLM_Baseline_Experiment.pdf
-│   ├── Technology_Selection.pdf
+├── README.md                    # English overview
+├── README.zh-CN.md              # Chinese overview
+├── PROJECT_CONTEXT.md           # Shared development context (Chinese)
+├── docs/                        # Scope, reports, diagrams and screenshots
+│   ├── Delivery.md
+│   ├── Testing-2026-10-21.md
+│   ├── Acceptance-2026-10-22.md
 │   ├── AI_Usage_Log.md
-│   ├── Progress_Audit_2026-10-16.md
-│   ├── README.md                        # 文档状态与证据索引
-│   ├── diagrams/                       # 当前与计划架构
-│   ├── archive/                        # 更新前历史材料
-│   ├── meetings/                       # 会议记录与会议材料（当前为空）
+│   ├── diagrams/
+│   ├── archive/
 │   └── screenshots/
-│       ├── UI_Prototype_About.png
-│       ├── UI_Prototype_Home.png
-│       └── UI_Prototype_MyTrips.png
-├── frontend/                          # React + Vite 原型（含源码、模拟数据和预览图）
-├── backend/                           # Flask API、输入校验、样例生成和测试
-├── experiments/                       # LLM 实验记录（当前为空）
-├── data/                              # 精选景点与模拟数据（当前为空）
-└── dissertation/                      # 学位论文草稿（当前为空）
+├── frontend/                    # React + Vite application and frontend tests
+├── backend/                     # Flask API, providers, validation and tests
+├── scripts/                     # Setup, launch, packaging and evaluation tools
+└── experiments/                 # Experiment records and acceptance evidence
 ```
 
-会议笔记与会议材料放入 `docs/meetings/`；会议相关截图及其他项目截图放入 `docs/screenshots/`，建议在文件名中注明日期与用途。
+Local placeholders `data/`, `dissertation/` and `docs/meetings/` are currently empty and are not tracked by Git. Use them for curated data, dissertation drafts and meeting materials when available. Date screenshot filenames where possible.
 
-## 运行连接原型
+## Run locally
 
-在项目根目录启动后端：
+Requirements: Python 3.10+, a compatible Node.js release (20.19+ or 22.12+) and npm. The current verification environment is macOS; other operating systems have not been verified. On a new machine, `bash scripts/setup.sh` installs dependencies, builds the frontend and runs tests.
+
+For manual installation, run the following from the project root. Before launching, create `backend/.env` from `backend/.env.example` if it does not exist. Set `TRIP_PROVIDER=sample` for a demo without credentials, or `TRIP_PROVIDER=qwen` with a Bailian API key for real model calls.
 
 ```sh
 python3 -m venv .venv
@@ -85,7 +83,7 @@ python3 -m venv .venv
 .venv/bin/python -m flask --app backend.app run --host 127.0.0.1 --port 5001
 ```
 
-另开终端启动前端：
+In a second terminal, start the frontend:
 
 ```sh
 cd frontend
@@ -93,22 +91,27 @@ npm ci
 npm run dev
 ```
 
-打开 Vite 显示的地址（通常为 http://127.0.0.1:5173）。前端通过 Vite 代理访问 Flask；sample 模式无需密钥，qwen 模式需在后端配置百炼 API Key。两项服务都需要运行；Flask 不可用时界面显示重试提示。
+Open the address shown by Vite, normally http://127.0.0.1:5173. The frontend proxies API requests to Flask. Both services must be running; the interface shows a retry message when the backend is unavailable. Real Qwen calls may incur provider charges. The launcher binds services to localhost for local demonstration.
 
-验证：
+Run verification from the project root:
 
 ```sh
 .venv/bin/python -m unittest discover -s backend/tests -v
 cd frontend
+npm test
 npm run build
 ```
 
-Qwen 当前支持 17 个英国城市、1–14 天、GBP、手动输入 1–50 人；离线样例仍限定 London 两天 1–4 人；过去日期也可用于样例演示。预算与人数经过服务端校验，超预算会显示提醒。模型会依据日期生成，但不会核实当天开放情况；sample 模式兴趣仅高亮、备注仅保留；qwen 模式将兴趣与备注发送给模型参与生成。保存仍使用浏览器 localStorage。没有账户或服务端行程存储；Qwen 已完成一次真实调用验证。
+Qwen mode supports 17 UK cities, 1–14 inclusive days, GBP and 1–50 travellers. Sample mode is limited to London, two consecutive days and 1–4 travellers. Past dates are allowed for experiments. Budget and group size are validated on the server; estimates over budget produce a warning rather than a guarantee of an affordable plan. Opening hours are not verified. In sample mode, interests are highlighted and notes are retained; in Qwen mode, both are sent to the model to inform generation. Trips are stored in browser localStorage, with no accounts or server-side trip storage.
 
-接口说明见 [backend/README.md](backend/README.md)。已加入 Qwen provider、输出校验和可选实验记录；下一步进行多组真实输出质量评估。
+See [backend/README.md](backend/README.md) for API details, output validation and optional experiment recording. Further repeated trials and manual quality assessment are needed to evaluate reliability.
 
-2026-10-21 扩展验证：Manchester 6 人 3 天、Cardiff 8 人单日、London 3 人 12 天真实生成均通过；12 天最终耗时 69.2 秒。Cardiff 保存并刷新读取通过。完整记录见 experiments/expanded-2026-10-21/README.md。
+Additional live checks on 21 October 2026 covered Manchester (6 travellers, 3 days), Cardiff (8 travellers, 1 day) and London (3 travellers, 12 days). The final 12-day run took 69.2 seconds. Saving and reloading the Cardiff trip also passed. Records: [expanded verification](experiments/expanded-2026-10-21/README.md).
 
-## 天气功能
+## Weather-aware planning
 
-默认从 Open-Meteo 获取日期可用的日预报，帮助 Qwen 推荐室内/室外活动并提供室内备选。无需额外 API Key；设置 WEATHER_ENABLED=false 可关闭。预报超范围或服务不可用时仍生成行程。结果页显示数据来源、获取时间；保存的预报不会自动刷新。详见 backend/README.md。
+Open-Meteo supplies daily forecasts for supported dates to help Qwen suggest indoor/outdoor activities and indoor alternatives. No additional weather API key is required. Set `WEATHER_ENABLED=false` to disable it. Generation continues when dates are outside the forecast window or the weather service is unavailable. Results display the source and retrieval time; saved forecasts are snapshots and do not refresh automatically. See [backend/README.md](backend/README.md) for details.
+
+## Limitations
+
+This is a local academic prototype. Venue existence, actual prices, opening hours, route feasibility and weather suitability require independent verification. Name-based deduplication is not full geographic entity resolution, and plans are not guaranteed to stay within budget. Browser storage can be lost when browser data is cleared. Public hosting of the source code does not deploy the application as an online service.
