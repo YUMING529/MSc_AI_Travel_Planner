@@ -24,7 +24,7 @@ React → Flask input validation → Weather forecast → Qwen itinerary generat
 
 Regression evidence includes 44 passing backend tests, 3 passing frontend tests and a successful production build, plus layout checks at widths of 360, 390, 768 and 1440 pixels. Separate live checks on 22 October 2026 generated a 14-day London trip in approximately 99 seconds and a 7-day Manchester trip in approximately 51 seconds, with no duplicate venues detected. These are small samples, not reliability estimates. Generated plans remain AI estimates; name-based duplicate checks do not verify venue facts or real routes.
 
-See [Delivery](docs/Delivery.md) for installation and launch instructions and [Testing](docs/Testing-2026-10-21.md) for evidence (both in Chinese). Once dependencies and the frontend build are ready, launch with `.venv/bin/python scripts/start.py --preview`, or double-click `Start-TripMind.command` on macOS.
+See [Delivery](docs/Delivery.md) for installation and launch instructions and [Testing](docs/Testing-2026-10-21.md) for evidence (the testing report is in Chinese). Once dependencies and the frontend build are ready, launch with `.venv/bin/python scripts/start.py --preview`, or double-click `Start-TripMind.command` on macOS.
 
 Configuration is documented in [backend/README.md](backend/README.md) (English). After cloning, copy `backend/.env.example` to `backend/.env` if it does not exist, and configure it locally. The repository does not include credentials. Restart the backend after configuration changes. Never upload API keys.
 
